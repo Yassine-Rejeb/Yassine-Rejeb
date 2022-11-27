@@ -61,17 +61,17 @@
       <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
     </div>
 </p>
-
-# 📫 Connect with me
-If you have questions, or you have a project I'm available for freelancing and also I'm looking for a new opportunities,
-you can always contact me at: <br>
 -->
+# 📫 Connect with me
+If you have questions, or you have a project I'm available for freelancing and I'm looking for new opportunities,
+you can always contact me at: <br>
+
 <!-- Social Links -->
-<!--<div align="center">
+<div align="center">
 <a href="https://www.linkedin.com/in/mohamed-yassine-rejeb-4100991a1/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-black.svg?style=for-the-badge&logo=linkedin&logoColor=blue"/></a>
 <a href="mailto:mohamedyassine.rejeb@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-black?style=for-the-badge&logo=gmail&logoColor=red" /></a>
 <a href="https://www.facebook.com/yassine.rejeb.359/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-black.svg?style=for-the-badge&logo=Facebook&logoColor=blue"/></a>
-</div>-->
+</div>
 
 
 <h6 align="center"> </h6>
