@@ -4,7 +4,7 @@
 <div align="center"><img src="https://readme-typing-svg.herokuapp.com?size=24&color=182533&center=true&vCenter=true&lines=Hello+%F0%9F%91%8B;Linux+enthusiast;CyberSecurity+enthusiast;CTF+Player;HTB+Player,Novice+though"></div>
 
 <p align="center">
-  <a href="https://github.com/Yassine-Rejeb?tab=repositories&sort=stargazers">
+<a href="https://github.com/Yassine-Rejeb?tab=repositories&sort=stargazers">
     <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/Yassine-Rejeb?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
   <a href="https://github.com/Yassine-Rejeb?tab=followers">
     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/Yassine-Rejeb?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
@@ -13,16 +13,14 @@
 </p>
 
 ### Hi there, I'm Yassine Rejeb AKA M0D4S in CTFs & MYR4c in HTB
-## A CyberSecurity engineering student who's passionate about linux. 
-<div align="left"> 
-
----
   
-# 👨🏻‍💻  About Me
+## 👨🏻‍💻  About Me
 💡  I am passionate about linux and cybersecurity with a side interest in cloud.<br>
 💻  I’m currently studying Cyber Security.<br>
 👨🏻‍💻  I’m following a pathway in both fields cloud infrastructure and cyber security.<br>
 🙌🏼  2022 Goals: Better myself in ansible automation.<br>
+
+## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/640px-Tux.svg.png" alt="UNIX Like Systems" width="10" height="15"  style="vertical-align:top; margin:4px"> Skills <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px">
 
 <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png"></code>
 <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
@@ -48,10 +46,10 @@
    
 </div>
 
-
+<!--
 # ⚙️ GitHub Analytics
 
-<!--<p align=center>
+<p align=center>
     <div align="center">
      <img  width = "400px" src ="https://github-readme-stats.vercel.app/api?username=Yassine-Rejeb&show_icons=true&theme=algolia"/>
       <img  width = "400px" src="https://github-readme-streak-stats.herokuapp.com/?user=Yassine-Rejeb&theme=algolia" alt="webDev's Github stats" />
