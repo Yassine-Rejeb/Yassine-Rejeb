@@ -1,6 +1,10 @@
 <div id="top"></div>
 <p align="center">
-<img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+<div align="center" >
+
+## Hi there, I'm Yassine Rejeb (AKA M0D4S in CTFs & MYR4c in HTB)
+
+</div>
 <div align="center"><img src="https://readme-typing-svg.herokuapp.com?size=24&color=182533&center=true&vCenter=true&lines=Hello+%F0%9F%91%8B;Linux+enthusiast;CyberSecurity+enthusiast;CTF+Player;HTB+Player,Novice+though"></div>
 
 <p align="center">
@@ -12,7 +16,6 @@
     <img alt="views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=Yassine-Rejeb&label=Profile%20Views%20&color=ff0000&style=for-the-badge"/></a>
 </p>
 
-### Hi there, I'm Yassine Rejeb AKA M0D4S in CTFs & MYR4c in HTB
   
 ## 👨🏻‍💻  About Me
 💡  I am passionate about linux and cybersecurity with a side interest in cloud.<br>
