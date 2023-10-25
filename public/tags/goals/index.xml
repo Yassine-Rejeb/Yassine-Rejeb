@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>goals on M0D4S&#39;s blog</title>
+    <link>/tags/goals/</link>
+    <description>Recent content in goals on M0D4S&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/goals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>whoami</title>
+      <link>/post/whoami/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/whoami/</guid>
+      
+        <description>Getting to know each other</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+portfolioitems:
+  # portfolio category
+  - title: Coding Projects
+    portfolioitem:
+      - name: Python Basic Messaging App
+        image: '/images/portfolio/messaging.png'
+        link: https://github.com/Yassine-Rejeb/Chatbox_v2
+        linktext: 'Check it in my github'
+        description: 'This was a graded project in the university in which I made a basic messaging app and containerized it. I learned a lot in the process and I used these: django, mongodb, Docker, Docker-compose and even an nginx reverse proxy for enabling HTTPS.'
+        tags:
+          - Django
+          - Docker
+          - Docker-compose
+          - MongoDB
+          - Nginx
+        status: 'Finished'
+        start: '2022/12'
+        end: '2023/01'
+        authors:
+          - M0D4S
+      - name: Load Balancing with Docker Swarm
+        image: '/images/portfolio/traefik.png'
+        link: ''
+        linktext: 'Not Yet Uploaded'
+        description: 'In this project, I made a load balancing system with Traefik and docker swarm to provide some cloud native capabilities like scalability and high availability. I used Odoo as an example of a web application.'
+        tags:
+          - Docker
+          - Docker-compose
+          - Docker Swarm
+          - Traefik
+          - Odoo
+          - Postgresql
+        status: 'Finished'
+        start: '2023/09/22'
+        end: '2023/10/06'      
