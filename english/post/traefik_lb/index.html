@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        Load Balancing with Traefik and Docker Swarm |
+      Mohamed Yassine Rejeb
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.119.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Mohamed Yassine Rejeb" />
+  <meta
+    name="description"
+    content="Cloud Native Load Balancing with Traefik and Docker Swarm"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.5794be192d21535bdd301561e043a96b6adbad2b5c08279deff459e4661c613f.css"
+      integrity="sha256-V5S&#43;GS0hU1vdMBVh4EOpa2rbrStcCCed7/RZ5GYcYT8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="/english/post/traefik_lb/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Load Balancing with Traefik and Docker Swarm"/>
+<meta name="twitter:description" content="Cloud Native Load Balancing with Traefik and Docker Swarm"/>
+
+
+
+  
+  <meta property="og:title" content="Load Balancing with Traefik and Docker Swarm" />
+<meta property="og:description" content="Cloud Native Load Balancing with Traefik and Docker Swarm" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/english/post/traefik_lb/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="article:section" content="english" />
+<meta property="article:published_time" content="2023-10-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-10-07T00:00:00+00:00" /><meta property="og:site_name" content="I&#39;m Mohamed Yassine Rejeb" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "english",
+        "name": "Load Balancing with Traefik and Docker Swarm",
+        "headline": "Load Balancing with Traefik and Docker Swarm",
+        "alternativeHeadline": "",
+        "description": "
+      Cloud Native Load Balancing with Traefik and Docker Swarm
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/english\/post\/traefik_lb\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-10-07T00:00:00.00Z",
+        "datePublished": "2023-10-07T00:00:00.00Z",
+        "dateModified": "2023-10-07T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "M0D4S",
+            "url": "",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "\/english\/post\/traefik_lb\/",
+        "wordCount" : "1048",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "traefik"
+
+    
+      
+        ,
+
+      
+      "docker"
+
+    
+      
+        ,
+
+      
+      "docker-swarm"
+
+    
+      
+        ,
+
+      
+      "load-balancing"
+
+    
+      
+        ,
+
+      
+      "cloud-native"
+
+    
+      
+        ,
+
+      
+      "reverse-proxy"
+
+    
+      
+        ,
+
+      
+      "https-termination"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">I&#39;m Mohamed Yassine Rejeb</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more.</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/mohamed-yassine-rejeb-4100991a1/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/Yassine-Rejeb/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:m0d4s@duck.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Mohamed Yassine Rejeb
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/portfolio/"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/certifications/"
+              
+              title=""
+              >certifications</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Load Balancing With Traefik and Docker Swarm</h1>
+      <h2 id="traefik-load-blancer-with-docker-">Traefik Load Blancer with docker ..</h2>
+<!-- Import an image of the architecture -->
+<p><img src="/images/portfolio/traefik_lb.png" alt="Traefik Load Blancer with docker swarm"></p>
+<p>
+The image above shows how the traefik load balancer works with docker swarm. The traefik load balancer is a reverse proxy that is used to route requests to the appropriate service. It is also used to manage the certificates of the services that are using it to provide what we call https termination.
+Traefik, also, is seamlessly integrated with docker swarm, which means that it can automatically detect the services that are running in the swarm and route the requests to them.
+On eexample to show its power is that when we add replicas to a service using docker swarm, traefik will automatically detect them and route the requests to them.
+its combination with docker swarm makes it even more powerful and easy to use. as swarm is also capable of replacing services that are down with replicas that are up and running.
+</p>
+<h2 id="how-to-implement-it-">How to implement it ?</h2>
+<p>
+First, we need docker, docker-compose and docker swarm installed on our machine.
+Next, we need to create a docker-compose file that will contain the services that we want to deploy.
+</p>
+<p>Here is what the docker-compose file looks like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;3.8&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">db</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">postgres</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">POSTGRES_USER</span><span class="p">:</span><span class="w"> </span><span class="l">manager</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">POSTGRES_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l">password123</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">POSTGRES_DB</span><span class="p">:</span><span class="w"> </span><span class="l">postgres</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;./postgresql/data:/var/lib/postgresql/data&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">net1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">healthcheck</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">test</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;CMD-SHELL&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;pg_isready -U manager&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">interval</span><span class="p">:</span><span class="w"> </span><span class="l">5s</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l">5s</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">retries</span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">odoo</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">odoo:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">depends_on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">db</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">POSTGRES_USER</span><span class="p">:</span><span class="w"> </span><span class="l">manager</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">POSTGRES_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l">password123</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">POSTGRES_DB</span><span class="p">:</span><span class="w"> </span><span class="l">postgres</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./odoo/data_dir:/var/lib/odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./odoo/conf:/etc/odoo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">mode</span><span class="p">:</span><span class="w"> </span><span class="l">replicated</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">replicas</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">net1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">labels</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.enable=true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.odoo.rule=Host(`odoo.m0d4s.me`)&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.services.odoo.loadbalancer.server.port=8069&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">traefik</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">traefik:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;--api.insecure=true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;--providers.docker=true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;--entrypoints.web.address=:80&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;--entrypoints.websecure.address=:443&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;--entrypoints.websecure.http.tls=true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;--certificatesResolvers.myresolver.acme.tlsChallenge=true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;80:80&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;8080:8080&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;443:443&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/var/run/docker.sock:/var/run/docker.sock</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">./certs:/odoo-certs</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">net1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">labels</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.traefik.rule=Host(`traefik.m0d4s.me`)&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.traefik.service=api@internal&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.odoo-https.rule=Host(`odoo-sec.m0d4s.me`)&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.odoo-https.entrypoints=websecure&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.odoo-https.tls=true&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.odoo-https.tls.certificates[0]=/odoo-certs/odoo.crt&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.odoo-https.tls.certificates[1]=/odoo-certs/odoo.key&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">net1</span><span class="p">:</span><span class="w">
+</span></span></span></code></pre></div><p>
+The docker-compose file above contains 3 services:
+<ul>
+<li>db: a postgresql database that will be used by odoo</li>
+<li>odoo: the odoo service that will be load balanced by traefik</li>
+<li>traefik: the traefik load balancer</li>
+</ul>
+<p>The db service is a simple postgresql database that will be used by odoo. It is configured to use a volume to store its data and a network to communicate with the other services. It also has a healthcheck that will check if the database is up and running. If it is not, the service will be restarted. This is useful when we want to deploy the services in a swarm. The swarm will automatically restart the service if it is down.</p>
+<p>The odoo service is the service that will be load balanced by traefik. It is configured to use a volume to store its data (Make sure the permissions of volume on the host side contain the write for others &lsquo;chmod -R o+w ./postgresql/&rsquo;) and a network to communicate with the other services. It also has a label that will tell traefik to route the requests to it. The label is composed of 3 parts:</p>
+<ul>
+<li>traefik.enable=true: this tells traefik to enable the routing to this service</li>
+<li>traefik.http.routers.odoo.rule=Host(`odoo.m0d4s.me`): this tells traefik to route the requests that have the host odoo.m0d4s.me to this service</li>
+<li>traefik.http.services.odoo.loadbalancer.server.port=8069: this tells traefik to route the requests to the port 8069 of this service</li>
+</ul>
+<p>The traefik service is the traefik load balancer. It is configured to use a volume to store its certificates and a network to communicate with the other services. It also has a label that will tell traefik to route the requests to it. The label is composed of 3 parts:</p>
+<ul>
+<li>traefik.http.routers.traefik.rule=Host(`traefik.m0d4s.me`): this tells traefik to route the requests that have the host traefik.m0d4s.me to this service</li>
+<li>traefik.http.routers.traefik.service=api@internal: this tells traefik to route the requests to the api@internal service</li>
+<li>traefik.http.routers.odoo-https.rule=Host(`odoo-sec.m0d4s.me`): this tells traefik to route the requests that have the host odoo-sec.m0d4s.me to this service</li>
+<li>traefik.http.routers.odoo-https.entrypoints=websecure: this tells traefik to route the requests to the websecure entrypoint</li>
+<li>traefik.http.routers.odoo-https.tls=true: this tells traefik to use tls for this service</li>
+<li>traefik.http.routers.odoo-https.tls.certificates[0]=/odoo-certs/odoo.crt: this tells traefik to use the certificate odoo.crt for this service</li>
+<li>traefik.http.routers.odoo-https.tls.certificates[1]=/odoo-certs/odoo.key: this tells traefik to use the certificate odoo.key for this service</li>
+</ul>
+<p>One more thing, is that in the traefik service we use commands to configure it. The commands are:</p>
+<ul>
+<li>--api.insecure=true: this tells traefik to use the api in insecure mode</li>
+<li>--providers.docker=true: this tells traefik to use docker as a provider to auto discover services</li>
+<li>--entrypoints.web.address=:80: this tells traefik to use the port 80 for the web entrypoint</li>
+<li>--entrypoints.websecure.address=:443: this tells traefik to use the port 443 for the websecure entrypoint</li>
+<li>--entrypoints.websecure.http.tls=true: this tells traefik to use tls for the websecure entrypoint</li>
+</ul>
+</p>
+<h2 id="how-to-deploy-it-">How to deploy it ?</h2>
+<p>
+To deploy the services, we need to run the following command:
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker swarm init
+</span></span><span class="line"><span class="cl">docker stack deploy -c docker-compose.yml traefik_lb
+</span></span><span class="line"><span class="cl"><span class="c1"># If you need to change the number of replicas of the odoo service, you can run the following command:</span>
+</span></span><span class="line"><span class="cl">docker service scale <span class="nv">traefik_lb_odoo</span><span class="o">=</span><span class="m">5</span>
+</span></span></code></pre></div><p>
+This will deploy the services in a docker swarm. To check the status of the services, we can run the following command:
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker service ls
+</span></span></code></pre></div><p>
+This will show the status of the services. If the status of the services is up, then we can access the services using the hosts that we configured in the docker-compose file.
+</p>
+<h2 id="how-to-access-the-services-">How to access the services ?</h2>
+<p>
+To access the services, we need to add the hosts that we configured in the docker-compose file to the /etc/hosts file. To do that, we can run the following command:
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo <span class="nb">echo</span> <span class="s2">&#34;127.0.0.1 traefik.m0d4s.me odoo.m0d4s.me odoo-sec.m0d4s.me&#34;</span> &gt;&gt; /etc/hosts
+</span></span></code></pre></div><p>
+Now, we can access the services using the hosts that we configured in the docker-compose file.
+</p>
+<h2 id="how-to-test-it-">How to test it ?</h2>
+<p>
+To test the services, we can run the following command:
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -k https://127.0.0.1 -H <span class="s2">&#34;Host: odoo-sec.m0d4s.me&#34;</span>
+</span></span></code></pre></div><p>
+This will show the response of the odoo service. If the response is ok, then the services are working fine.
+</p>
+<h2 id="how-to-remove-the-stack-">How to remove the stack ?</h2>
+<p>
+To remove the stack, we can run the following command:
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker stack rm traefik_lb
+</span></span></code></pre></div><p>
+This will remove the services.
+</p>
+<h2 id="how-to-remove-the-swarm-">How to remove the swarm ?</h2>
+<p>
+To remove the swarm, we can run the following command:
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker swarm leave --force
+</span></span></code></pre></div><p>
+This will remove the swarm.
+</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>
+The traefik load balancer is a powerful tool that can be used to load balance services. It is also easy to use and configure, seamlessly integrated with docker swarm which makes it even more powerful.
+</p></div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/traefik/">traefik</a><a class="tag" href="/tags/docker/">docker</a><a class="tag" href="/tags/docker-swarm/">docker-swarm</a><a class="tag" href="/tags/load-balancing/">load-balancing</a><a class="tag" href="/tags/cloud-native/">cloud-native</a><a class="tag" href="/tags/reverse-proxy/">reverse-proxy</a><a class="tag" href="/tags/https-termination/">https-termination</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Mohamed Yassine Rejeb
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

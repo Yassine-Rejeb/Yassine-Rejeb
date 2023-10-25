@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>index on Website of Mohamed Yassine Rejeb</title>
+    <link>/ar/tags/index/</link>
+    <description>Recent content in index on Website of Mohamed Yassine Rejeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/ar/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>/ar/arabic/post/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/arabic/post/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>/ar/english/post/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/english/post/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
