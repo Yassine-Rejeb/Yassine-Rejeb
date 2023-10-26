@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html
   dir="ltr"
-  lang="en"
+  lang="ar"
   data-theme=""
   
     class="html theme--light"
@@ -16,7 +16,7 @@
   </title>
 
   
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.119.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.106.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="author" content="Mohamed Yassine Rejeb" />
   <meta
     name="description"
@@ -82,7 +82,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="/post/traefik_lb/" />
+  <link rel="canonical" href="/ar/english/post/traefik_lb/" />
 
   
   
@@ -122,9 +122,10 @@
   <meta property="og:title" content="Load Balancing with Traefik and Docker Swarm" />
 <meta property="og:description" content="Cloud Native Load Balancing with Traefik and Docker Swarm" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/traefik_lb/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="og:url" content="/ar/english/post/traefik_lb/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="article:section" content="english" />
 <meta property="article:published_time" content="2023-10-07T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-10-07T00:00:00+00:00" /><meta property="og:site_name" content="I&#39;m Mohamed Yassine Rejeb" />
+
 
 
 
@@ -136,7 +137,7 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "articleSection": "post",
+        "articleSection": "english",
         "name": "Load Balancing with Traefik and Docker Swarm",
         "headline": "Load Balancing with Traefik and Docker Swarm",
         "alternativeHeadline": "",
@@ -149,7 +150,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "\/post\/traefik_lb\/"
+            "@id": "\/ar\/english\/post\/traefik_lb\/"
         },
         "author" : {
             "@type": "Person",
@@ -192,7 +193,7 @@
       ]
 
     ,
-        "url" : "\/post\/traefik_lb\/",
+        "url" : "\/ar\/english\/post\/traefik_lb\/",
         "wordCount" : "1048",
         "genre" : [ ],
         "keywords" : [ 
@@ -267,7 +268,7 @@
       />
       
         <div class="sidebar__introduction-title">
-          <a href="/">I&#39;m Mohamed Yassine Rejeb</a>
+          <a href="/ar">I&#39;m Mohamed Yassine Rejeb</a>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -323,17 +324,6 @@
       
     </li>
     
-      <li class="footer__item">
-        <a
-          class="link"
-          href="/imprint/"
-          
-          title=""
-        >
-          imprint
-        </a>
-      </li>
-    
   </ul>
 </footer>
   
@@ -368,10 +358,10 @@
           <li class="nav__list-item">
             <a
               
-              href="/"
+              href="/ar/"
               
               title=""
-              >Home</a
+              >الرئيسية</a
             >
           </li>
         
@@ -382,10 +372,10 @@
           <li class="nav__list-item">
             <a
               
-              href="/post/"
+              href="/ar/post/"
               
               title=""
-              >Posts</a
+              >المنشورات</a
             >
           </li>
         
@@ -396,10 +386,10 @@
           <li class="nav__list-item">
             <a
               
-              href="/portfolio/"
+              href="/ar/about/"
               
               title=""
-              >Portfolio</a
+              >حول</a
             >
           </li>
         
@@ -410,24 +400,10 @@
           <li class="nav__list-item">
             <a
               
-              href="/certifications/"
+              href="/ar/contact/"
               
               title=""
-              >certifications</a
-            >
-          </li>
-        
-
-      
-        
-        
-          <li class="nav__list-item">
-            <a
-              
-              href="/about/"
-              
-              title=""
-              >About</a
+              >للتواصل</a
             >
           </li>
         
@@ -457,24 +433,6 @@
     
     <div class="post__content">
       <h1>Load Balancing With Traefik and Docker Swarm</h1>
-      
-        <ul class="post__meta">
-          <li class="post__meta-item">
-            <em class="fas fa-calendar-day post__meta-icon"></em>
-            <span class="post__meta-text"
-              >
-                
-                  7/10/2023
-                
-
-              
-            </span>
-          </li>
-          <li class="post__meta-item">
-            <em class="fas fa-stopwatch post__meta-icon"></em>
-            <span class="post__meta-text">5-minute read</span>
-          </li>
-        </ul>
       <h2 id="traefik-load-blancer-with-docker-">Traefik Load Blancer with docker ..</h2>
 <!-- Import an image of the architecture -->
 <p><img src="/images/portfolio/traefik_lb.png" alt="Traefik Load Blancer with docker swarm"></p>
@@ -573,7 +531,7 @@ The docker-compose file above contains 3 services:
 <li>traefik.http.routers.odoo.rule=Host(`odoo.m0d4s.me`): this tells traefik to route the requests that have the host odoo.m0d4s.me to this service</li>
 <li>traefik.http.services.odoo.loadbalancer.server.port=8069: this tells traefik to route the requests to the port 8069 of this service</li>
 </ul>
-<p>The traefik service is the traefik load balancer. It is configured to use a volume to store its certificates and a network to communicate with the other services. It also has a label that will tell traefik to route the requests to it. The label is composed of 7 parts:</p>
+<p>The traefik service is the traefik load balancer. It is configured to use a volume to store its certificates and a network to communicate with the other services. It also has a label that will tell traefik to route the requests to it. The label is composed of 3 parts:</p>
 <ul>
 <li>traefik.http.routers.traefik.rule=Host(`traefik.m0d4s.me`): this tells traefik to route the requests that have the host traefik.m0d4s.me to this service</li>
 <li>traefik.http.routers.traefik.service=api@internal: this tells traefik to route the requests to the api@internal service</li>
@@ -647,7 +605,7 @@ The traefik load balancer is a powerful tool that can be used to load balance se
       
 
       
-        <span><a class="tag" href="/tags/traefik/">traefik</a><a class="tag" href="/tags/docker/">docker</a><a class="tag" href="/tags/docker-swarm/">docker-swarm</a><a class="tag" href="/tags/load-balancing/">load-balancing</a><a class="tag" href="/tags/cloud-native/">cloud-native</a><a class="tag" href="/tags/reverse-proxy/">reverse-proxy</a><a class="tag" href="/tags/https-termination/">https-termination</a></span>
+        <span><a class="tag" href="/ar/tags/traefik/">traefik</a><a class="tag" href="/ar/tags/docker/">docker</a><a class="tag" href="/ar/tags/docker-swarm/">docker-swarm</a><a class="tag" href="/ar/tags/load-balancing/">load-balancing</a><a class="tag" href="/ar/tags/cloud-native/">cloud-native</a><a class="tag" href="/ar/tags/reverse-proxy/">reverse-proxy</a><a class="tag" href="/ar/tags/https-termination/">https-termination</a></span>
 
 
       
@@ -666,17 +624,6 @@ The traefik load balancer is a powerful tool that can be used to load balance se
         2023
       
     </li>
-    
-      <li class="footer__item">
-        <a
-          class="link"
-          href="/imprint/"
-          
-          title=""
-        >
-          imprint
-        </a>
-      </li>
     
   </ul>
 </footer>
