@@ -18,7 +18,7 @@ portfolioitems:
         end: '2023/01'
         authors:
           - M0D4S
-      - name: Load Balancing with Docker Swarm
+      - name: Load Balancing in Docker Swarm
         image: '/images/portfolio/traefik.png'
         link: ''
         linktext: 'Not Yet Uploaded'
