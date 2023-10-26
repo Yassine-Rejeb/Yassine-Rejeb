@@ -6,7 +6,18 @@
     <description>Recent content on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load Balancing with Traefik and Docker Swarm</title>
+      <link>/ar/english/post/traefik_lb/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/english/post/traefik_lb/</guid>
+      
+        <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
+      
+    </item>
+    
     <item>
       <title></title>
       <link>/ar/english/archives/</link>

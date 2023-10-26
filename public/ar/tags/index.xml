@@ -6,7 +6,84 @@
     <description>Recent content in Tags on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cloud-native</title>
+      <link>/ar/tags/cloud-native/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/cloud-native/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>/ar/tags/docker/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/docker/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>docker-swarm</title>
+      <link>/ar/tags/docker-swarm/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/docker-swarm/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>https-termination</title>
+      <link>/ar/tags/https-termination/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/https-termination/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>load-balancing</title>
+      <link>/ar/tags/load-balancing/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/load-balancing/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>reverse-proxy</title>
+      <link>/ar/tags/reverse-proxy/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/reverse-proxy/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>traefik</title>
+      <link>/ar/tags/traefik/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/traefik/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>goals</title>
       <link>/ar/tags/goals/</link>

@@ -112,7 +112,7 @@ The odoo service is the service that will be load balanced by traefik. It is con
 <li>traefik.http.services.odoo.loadbalancer.server.port=8069: this tells traefik to route the requests to the port 8069 of this service</li>
 </ul>
 
-The traefik service is the traefik load balancer. It is configured to use a volume to store its certificates and a network to communicate with the other services. It also has a label that will tell traefik to route the requests to it. The label is composed of 3 parts:
+The traefik service is the traefik load balancer. It is configured to use a volume to store its certificates and a network to communicate with the other services. It also has a label that will tell traefik to route the requests to it. The label is composed of 7 parts:
 <ul>
 <li>traefik.http.routers.traefik.rule=Host(`traefik.m0d4s.me`): this tells traefik to route the requests that have the host traefik.m0d4s.me to this service</li>
 <li>traefik.http.routers.traefik.service=api@internal: this tells traefik to route the requests to the api@internal service</li>

@@ -2,6 +2,129 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
+    <loc>/tags/cloud-native/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cloud-native/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cloud-native/"
+                />
+  </url><url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/docker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/docker/"
+                />
+  </url><url>
+    <loc>/tags/docker-swarm/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/docker-swarm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/docker-swarm/"
+                />
+  </url><url>
+    <loc>/tags/https-termination/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/https-termination/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/https-termination/"
+                />
+  </url><url>
+    <loc>/post/traefik_lb/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/load-balancing/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/load-balancing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/load-balancing/"
+                />
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/reverse-proxy/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/reverse-proxy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/reverse-proxy/"
+                />
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/tags/traefik/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/traefik/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/traefik/"
+                />
+  </url><url>
     <loc>/archives/</loc>
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -16,19 +139,6 @@
   </url><url>
     <loc>/contact/</loc>
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
   </url><url>
     <loc>/tags/goals/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
@@ -56,9 +166,6 @@
                 href="/tags/hobbies/"
                 />
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/studies/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -70,19 +177,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags/studies/"
-                />
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
                 />
   </url><url>
     <loc>/tags/what-am-i-doing/</loc>
