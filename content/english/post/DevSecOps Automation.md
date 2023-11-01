@@ -3,7 +3,7 @@ author = "M0D4S"
 title = "Automating the implementation of a DevSecOps Environment and pipeline"
 date = "2023-09-08"
 description = "Automating the creation of an environment and pipeline for DevSecOps in a private cloud"
-tags = []
+tags = ["devsecops", "automation", "terraform", "ansible", "jenkins", "sonarqube", "sca", "sast", "dast", "compliance", "openstack", "DevStack", "cloud", "security", "devops", "ci/cd", "pipeline", "zap", "owasp", "owasp-zap"]
 +++
 
 ## Architecture of the solution ..
