@@ -19,6 +19,17 @@
     </item>
     
     <item>
+      <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
+      <link>/english/post/devsecops-automation/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/english/post/devsecops-automation/</guid>
+      
+        <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
+      
+    </item>
+    
+    <item>
       <title>whoami</title>
       <link>/english/post/whoami/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
