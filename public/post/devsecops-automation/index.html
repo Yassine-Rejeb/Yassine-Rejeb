@@ -9,6 +9,8 @@
 ><head>
   <title>
     
+      
+        Automating the implementation of a DevSecOps Environment and pipeline |
       Mohamed Yassine Rejeb
 
   </title>
@@ -18,7 +20,7 @@
   <meta name="author" content="Mohamed Yassine Rejeb" />
   <meta
     name="description"
-    content="I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more."
+    content="Automating the creation of an environment and pipeline for DevSecOps in a private cloud"
   />
   
   
@@ -80,10 +82,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="/" />
+  <link rel="canonical" href="/post/devsecops-automation/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="M0D4S's blog" />
   
   
   
@@ -112,30 +113,90 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="images/site-feature-image.png"/>
 
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more."/>
+<meta name="twitter:title" content="Automating the implementation of a DevSecOps Environment and pipeline"/>
+<meta name="twitter:description" content="Automating the creation of an environment and pipeline for DevSecOps in a private cloud"/>
 
 
 
   
-  <meta property="og:title" content="" />
-<meta property="og:description" content="I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="og:site_name" content="M0D4S&#39;s blog" />
+  <meta property="og:title" content="Automating the implementation of a DevSecOps Environment and pipeline" />
+<meta property="og:description" content="Automating the creation of an environment and pipeline for DevSecOps in a private cloud" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/devsecops-automation/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="article:section" content="post" />
+
+<meta property="og:site_name" content="M0D4S&#39;s blog" />
 
 
 
 
+  
+  
+  
   
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "M0D4S's blog",
-      "url": "",
-      "description": "I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more.",
-      "thumbnailUrl": "",
-      "license": ""
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Automating the implementation of a DevSecOps Environment and pipeline",
+        "headline": "Automating the implementation of a DevSecOps Environment and pipeline",
+        "alternativeHeadline": "",
+        "description": "
+      Automating the creation of an environment and pipeline for DevSecOps in a private cloud
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/post\/devsecops-automation\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightYear" : "0001",
+        "dateCreated": "0001-01-01T00:00:00.00Z",
+        "datePublished": "0001-01-01T00:00:00.00Z",
+        "dateModified": "0001-01-01T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "M0D4S",
+            "url": "",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "\/post\/devsecops-automation\/",
+        "wordCount" : "417",
+        "genre" : [ ],
+        "keywords" : [ ]
     }
   </script>
 
@@ -160,9 +221,9 @@
         alt="profile picture"
       />
       
-        <h1 class="sidebar__introduction-title">
+        <div class="sidebar__introduction-title">
           <a href="/">M0D4S&#39;s blog</a>
-        </h1>
+        </div>
       
       <div class="sidebar__introduction-description">
         <p>I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more.</p>
@@ -262,8 +323,6 @@
           <li class="nav__list-item">
             <a
               
-                class="nav__link--active"
-              
               href="/"
               
               title=""
@@ -332,29 +391,6 @@
     </ul>
     <ul class="nav__list nav__list--end">
       
-        <li class="nav__list-item">
-          <div class="optionswitch">
-            <input class="optionswitch__picker" type="checkbox" id="languagepicker" hidden />
-            <label class="optionswitch__label" for="languagepicker"
-              >EN <i class="fa fa-angle-down" aria-hidden="true"></i
-            ></label>
-            <div class="optionswitch__triangle"></div>
-            <ul class="optionswitch__list">
-              
-                <li class="optionswitch__list-item">
-                  <a href="/ar/" title=""
-                    ><span
-                      
-                      aria-label=""
-                      ></span
-                    >
-                  </a>
-                </li>
-              
-            </ul>
-          </div>
-        </li>
-      
       
         <li class="nav__list-item">
           <div class="themeswitch">
@@ -373,139 +409,87 @@
       animated fadeInDown
     "
   >
+    
     <div class="post__content">
-      <!--
-This file is left intentionally empty by default to be backwards compatible with the initial theme setup.
+      <h1>Automating the Implementation of a DevSecOps Environment and Pipeline</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  1/1/0001
+                
 
-Although the theme has advanced a little bit and it now allows to specify the content on the main page (even if the list of posts/articles is not intended).
-This can be:
-- with the list of posts/articles (default: `mainSections = ["post"]) or
-- without the list of posts/articles (by setting `mainSections = [""]`)
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+      <h2 id="architecture-of-the-solution-">Architecture of the solution ..</h2>
+<!-- Import an image of the architecture -->
+<p><img src="/images/portfolio/SecOps.png" alt="Traefik Load Blancer with docker swarm"></p>
+<p>
+The image above presents the architecure of the solution. The solution is composed of :
+<ul>
+<li>A Jenkins server that is used for the CI/CD pipelines</li>
+<li>A Jenkins agent that is used to build the code and run the security tests</li>
+<li>A SonarQube server that is used to analyze the code</li>
+</ul>
+<p>The phases of the pipeline are:</p>
+<ul>
+<li>Build the code</li>
+<li>Run the SCA (Software Composition Analysis) tests</li>
+<li>Run the SAST (Static Application Security Testing) tests</li>
+<li>Run the DAST (Dynamic Application Security Testing) tests</li>
+<li>Run the compliance test of the instance hosting the application</li>
+</ul>
+</p>
+<!--PS: in red, the project uses a previous project of mine made with django as a security and build subject you can change that yourself in the SCM Checkout of the code and the build in the zap pipeline-->
+<p>
+<strong>PS:</strong> This project uses a previous project of mine made with django as a security and build subject you can change that yourself in the SCM Checkout of the code and the build in the zap pipeline.
+</p>
+To achieve this, we require terraform to allocate the resources in the cloud and ansible to configure the servers.
+<h2 id="how-to-implement-it-">How to implement it ?</h2>
+<p>
+First, we need to have a private cloud up and running, we can use openstack for that, both the DevSTack and MiniStack versions enables the creation of a single node private cloud. Next, we need to install terraform and ansible along with a few other tools on our machine. We need to create terraform scripts to allocate the resources in the cloud and ansible playbooks to configure the servers. <br>
+Thankfully, I did all of that and I created a repository that contains all the scripts and playbooks that we need to implement the solution. The repository is available on my github account, you can find it <a href="https://github.com/Yassine-Rejeb/SecOps_OpenStack">here</a>.
+</p>
+<h2 id="how-to-deploy-it-">How to deploy it ?</h2>
+<p>
+To deploy the solution, we need to follow the following steps:
+<ol>
+<li>Clone the repository:
+<pre><code>git clone https://github.com/Yassine-Rejeb/SecOps_OpenStack.git </code></pre>
+</li>
+<li>Rename the cloned repository to "SecOps":
+<pre><code>mv SecOps_OpenStack SecOps</code></pre>
+</li>
+<li>Go to the SecOps directory:
+<pre><code>cd SecOps</code></pre>
+</li>
+<li>Start with running the prepare_infra.sh script:
+<pre><code>./prepare_infra.sh</code></pre>
+</li>
+<li>Follow the instructions on the screen to create the infrastructure, This may take a while. And If you do not have enough resources on your machine, you may need to restart the script a few times. <br>
+Once the infrastructure is created, you can run the configure.sh script to configure the servers:
+<pre><code>./configure.sh</code></pre>
+</li>
+<li>Follow the instructions on the screen VERY CAREFULLY to configure the servers. <br>
+Once the servers are configured, you can open your browser and go to the Jenkins server IP address to access the Jenkins server (Creadentials are M0D4S/M0D4S). <br>
+When you authenticate, you will find some pipelines that are already configured and ready to be executed. <br>
+</div>
+    <div class="post__footer">
+      
 
-Markdown supported, ie:
-
-```
-# Welcome
-
-- Hugo 🚀
-- Hugo theme 🚀
-
-Don't forget to check the README.md file!
-```
-
-Remember that you can also specify a section header for the posts below by configuring the `mainSectionsTitle` parameter in the front matter of this file.
--->
-
+      
     </div>
 
     
-  </div>
-
-  
-
-  
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        <h3><a href="/post/traefik_lb/">LOAD BALANCING WITH TRAEFIK AND DOCKER SWARM</a></h3>
-        
-          <p>Traefik Load Blancer with docker .. The image above shows how the traefik load balancer works with docker swarm.</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              7/10/2023
-            
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/traefik/">traefik</a><a class="tag" href="/tags/docker/">docker</a><a class="tag" href="/tags/docker-swarm/">docker-swarm</a><a class="tag" href="/tags/load-balancing/">load-balancing</a><a class="tag" href="/tags/cloud-native/">cloud-native</a><a class="tag" href="/tags/reverse-proxy/">reverse-proxy</a><a class="tag" href="/tags/https-termination/">https-termination</a></span>
-
-
-        
-      </div>
-    </div>
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        <h3><a href="/post/whoami/">WHOAMI</a></h3>
-        
-          <p>I am .. Mohamed Yassine REJEB, a 23 years old tunisian with interests in cybersecurity, cloud and linux.</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              1/6/2021
-            
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/whoami/">whoami</a><a class="tag" href="/tags/what-am-i-doing/">what-am-i-doing</a><a class="tag" href="/tags/studies/">studies</a><a class="tag" href="/tags/goals/">goals</a><a class="tag" href="/tags/hobbies/">hobbies</a></span>
-
-
-        
-      </div>
-    </div>
-  
-    <div
-      class="post 
-        animated fadeInDown
-      "
-    >
-      
-      <div class="post__content">
-        <h3><a href="/post/devsecops-automation/">AUTOMATING THE IMPLEMENTATION OF A DEVSECOPS ENVIRONMENT AND PIPELINE</a></h3>
-        
-          <p>Architecture of the solution .. The image above presents the architecure of the solution.</p>
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            
-              1/1/0001
-            
-
-          </span
-        >
-        
-
-        
-      </div>
-    </div>
-  
-  <div class="pagination">
-    
-
   </div>
 
       </main>

@@ -211,6 +211,8 @@
     <loc>/imprint/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>/post/devsecops-automation/</loc>
+  </url><url>
     <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"

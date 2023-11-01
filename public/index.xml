@@ -96,5 +96,16 @@
       
     </item>
     
+    <item>
+      <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
+      <link>/post/devsecops-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/devsecops-automation/</guid>
+      
+        <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
+      
+    </item>
+    
   </channel>
 </rss>
