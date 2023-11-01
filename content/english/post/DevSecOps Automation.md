@@ -31,7 +31,7 @@ The phases of the Security testing are:
 <!--PS: in red, the project uses a previous project of mine made with django as a security and build subject you can change that yourself in the SCM Checkout of the code and the build in the zap pipeline-->
 
 <p style="border: 2px solid red; padding: 10px;">
-<strong style="color: red;">PS:</strong> This project uses a previous project of mine made with django as a security and build subject you can change that yourself in the SCM Checkout of the code and the build in the zap pipeline.
+<strong style="color: red;">PS:</strong> This project uses a previous project of mine made with django as a security testing and build subject, you can change that yourself in the SCM Checkout of the code and the build in the zap pipeline.
 </p>
 
 To achieve this, we require terraform to allocate the resources in the cloud and ansible to configure the servers.
