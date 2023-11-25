@@ -70,5 +70,10 @@ icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:m0d4s@duck.com"
 
+[[socialIcons]]
+icon = "fas fa-file-alt"
+title = "CV"
+url = "/pdfs/CV.pdf"
+
 [mermaid]
 # enable = true
