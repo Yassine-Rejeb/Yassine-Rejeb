@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automation on Website of Mohamed Yassine Rejeb</title>
+    <link>/ar/tags/automation/</link>
+    <description>Recent content in automation on Website of Mohamed Yassine Rejeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/ar/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
+      <link>/ar/english/post/devsecops-automation/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/english/post/devsecops-automation/</guid>
+      
+        <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
+      
+    </item>
+    
+  </channel>
+</rss>

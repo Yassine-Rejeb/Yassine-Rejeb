@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -16,7 +16,74 @@
                 />
   </url><url>
     <loc>/english/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cheat-sheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cheat-sheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cheatsheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cheatsheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cka/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cka-cheat-sheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cka-cheat-sheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cka-cheatsheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cka-cheatsheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/english/post/cka_notes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/cka_notes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cka-notes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/k8s/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/kubernetes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/notes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/english/post/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/sysadmin/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
   </url><url>
     <loc>/tags/cloud-native/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
@@ -39,27 +106,8 @@
     <loc>/tags/load-balancing/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/english/post/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/reverse-proxy/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
   </url><url>
     <loc>/tags/traefik/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
@@ -127,6 +175,36 @@
     <loc>/tags/zap/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/english/post/rhcsa_notes/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/rhcsa_notes/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/redhat/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rhcsa/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rhcsa-cheat-sheet/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rhcsa-cheat-sheets/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rhcsa-cheatsheet/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rhcsa-cheatsheets/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rhcsa-notes/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/archives/</loc>
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -158,25 +236,25 @@
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/goals/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/hobbies/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/studies/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/what-am-i-doing/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/whoami/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/english/post/whoami/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/whoami/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/arabic/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>

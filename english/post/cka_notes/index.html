@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        CKA Exam Notes: Core Concepts |
+      Mohamed Yassine Rejeb
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.120.4"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Mohamed Yassine Rejeb" />
+  <meta
+    name="description"
+    content="My Notes for preparing for CKA Exam"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.5794be192d21535bdd301561e043a96b6adbad2b5c08279deff459e4661c613f.css"
+      integrity="sha256-V5S&#43;GS0hU1vdMBVh4EOpa2rbrStcCCed7/RZ5GYcYT8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="/english/post/cka_notes/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="CKA Exam Notes: Core Concepts"/>
+<meta name="twitter:description" content="My Notes for preparing for CKA Exam"/>
+
+
+
+  
+  <meta property="og:title" content="CKA Exam Notes: Core Concepts" />
+<meta property="og:description" content="My Notes for preparing for CKA Exam" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/english/post/cka_notes/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="article:section" content="english" />
+<meta property="article:published_time" content="2023-11-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-11-25T00:00:00+00:00" /><meta property="og:site_name" content="I&#39;m Mohamed Yassine Rejeb" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "english",
+        "name": "CKA Exam Notes: Core Concepts",
+        "headline": "CKA Exam Notes: Core Concepts",
+        "alternativeHeadline": "",
+        "description": "
+      My Notes for preparing for CKA Exam
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/english\/post\/cka_notes\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-11-25T00:00:00.00Z",
+        "datePublished": "2023-11-25T00:00:00.00Z",
+        "dateModified": "2023-11-25T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "M0D4S",
+            "url": "",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "\/english\/post\/cka_notes\/",
+        "wordCount" : "946",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "cka"
+
+    
+      
+        ,
+
+      
+      "kubernetes"
+
+    
+      
+        ,
+
+      
+      "k8s"
+
+    
+      
+        ,
+
+      
+      "sysadmin"
+
+    
+      
+        ,
+
+      
+      "notes"
+
+    
+      
+        ,
+
+      
+      "cheatsheet"
+
+    
+      
+        ,
+
+      
+      "cheat sheet"
+
+    
+      
+        ,
+
+      
+      "cheatsheets"
+
+    
+      
+        ,
+
+      
+      "cheat sheets"
+
+    
+      
+        ,
+
+      
+      "cka notes"
+
+    
+      
+        ,
+
+      
+      "cka cheatsheet"
+
+    
+      
+        ,
+
+      
+      "cka cheat sheet"
+
+    
+      
+        ,
+
+      
+      "cka cheatsheets"
+
+    
+      
+        ,
+
+      
+      "cka cheat sheets"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">I&#39;m Mohamed Yassine Rejeb</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more.</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/mohamed-yassine-rejeb-4100991a1/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/Yassine-Rejeb/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:m0d4s@duck.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Mohamed Yassine Rejeb
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/portfolio/"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/certifications/"
+              
+              title=""
+              >certifications</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>CKA Exam Notes: Core Concepts</h1>
+      <h1 id="core-concepts">Core Concepts</h1>
+<h1 id="i-cluster-architecture">I. Cluster Architecture</h1>
+<h2 id="i1-master">I.1. Master</h2>
+<ul>
+<li>Manage</li>
+<li>Plan</li>
+<li>Schedule</li>
+<li>Monitor</li>
+</ul>
+<p><em><strong>Components:</strong></em></p>
+<ul>
+<li><em><strong>ETCd:</strong></em> Key-Value Store</li>
+<li><em><strong>Kube-Scheduler</strong></em></li>
+<li><em><strong>Kube-Controller-Manager</strong></em></li>
+<li><em><strong>Kube-apiserver</strong></em></li>
+<li><strong>etc ..</strong></li>
+</ul>
+<h2 id="i2-workers">I.2. Workers</h2>
+<ul>
+<li>Hosts apps as containers.</li>
+</ul>
+<p><em><strong>Components:</strong></em></p>
+<ul>
+<li><em><strong>Kubelet</strong></em></li>
+<li><em><strong>Kube-Proxy</strong></em></li>
+<li><em><strong>Container Runtime Engine</strong></em></li>
+</ul>
+<h1 id="ii-cre--docker">II. CRE &amp; Docker</h1>
+<ul>
+<li><em><strong>OCI:</strong></em> Open Container Initiative
+<ul>
+<li>Standardize Image Specs and Runtime Specs</li>
+</ul>
+</li>
+<li><em><strong>DockerShim:</strong></em> A way to keep docker compatible with OCI (Consequently K8S), but it was removed in Docker V1.24 as docker became OCI compatible starting with that version.</li>
+<li><em><strong>Docker:</strong></em> was a set of tools (CLI, API, Build, Volumes, RUNC, containerd…)</li>
+<li><em><strong>Containerd:</strong></em> is a daemon to manage RUNC (CRE), then was cut off of docker project and became standalone project. But, it is not production level.</li>
+<li>There is also:
+<ul>
+<li><em><strong>NERDCTL:</strong></em> A whole CRE solution with its utilities.</li>
+<li><em><strong>CRICTL:</strong></em> Used to inspect and debug containers installed separately.
+<ul>
+<li>
+<p>Order of connections to runtime endpoints:</p>
+<ol>
+<li>unix:///run/containerd/containerd.sock</li>
+<li>unix:///run/crio/crio.sock</li>
+<li>unix:///var/run/cri-dockerd.sock</li>
+</ol>
+</li>
+<li>
+<p>Have to be set manually:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="nx">crictl</span> <span class="o">--</span><span class="nx">runtime</span><span class="o">-</span><span class="nx">endpoint</span>
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="nx">CONTAINER_RUNTIME_ENDPOINT</span>
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="iii-etcd">III. ETCd</h1>
+<ul>
+<li>Port 2379/tcp.</li>
+<li>Key-Value Store</li>
+<li>Distributed</li>
+<li>Reliable</li>
+<li>Simple, Secure &amp; Fast</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="nx">etcdctl</span> <span class="nx">set</span> <span class="nx">key1</span> <span class="nx">value1</span>
+</span></span><span class="line"><span class="cl"><span class="nx">etcdctl</span> <span class="nx">get</span> <span class="nx">key1</span>
+</span></span></code></pre></div><ul>
+<li>A lot of differences between VERSION2 &amp; 3. Default is V2, but if V3 is needed,</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># Method1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">ETCDCTL_API=3 ./etcd ...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Method2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">export ETCDCTL_API=3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">./etcd ...</span><span class="w">
+</span></span></span></code></pre></div><ul>
+<li>ETCd is the inventory of the K8S cluster.</li>
+<li>ETCd only changes when the change is actually done.</li>
+<li>If ETCd is set up with kubeadm, it will run as a pod in the K8S namespace.</li>
+<li>In the unit file of the etcd service: <code>--advertise-client-urls https://${**IP**}:2379</code></li>
+</ul>
+<h1 id="iv-kube-apiserver">IV. Kube-apiserver</h1>
+<ul>
+<li>To contact it, either use the <strong>kubectl</strong> or just <strong>send a request</strong> to the API endpoint.</li>
+<li>If set up with kubeadm, it will run as a pod in the K8S namespace.</li>
+<li>It is the primary management component in K8S.</li>
+<li>Example of: <code>kubectl get nodes</code>
+<ol>
+<li>Auth request</li>
+<li>Validate Request</li>
+<li>Retrieve/perform action</li>
+<li>Update ETCd</li>
+<li></li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="w"> </span><span class="l">Scheduler → API Server → ETCd</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                                          </span><span class="l">→ Kubelet → CRE</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                                                            </span><span class="l">→ API Server → ETCd</span><span class="w">
+</span></span></span></code></pre></div></li>
+</ul>
+<h1 id="v-kube-controller-manager">V. Kube Controller Manager</h1>
+<ul>
+<li>Purpose:
+<ul>
+<li>Watch Status</li>
+<li>Remediate Situation</li>
+</ul>
+</li>
+<li>Process
+<ul>
+<li>Continuous Monitoring</li>
+<li>Bring the Cluster to the Desired Functioning State</li>
+</ul>
+</li>
+<li>There is a lot of Controllers, for instance</li>
+</ul>
+<h2 id="v1-node-controller">V.1. Node Controller</h2>
+<ul>
+<li>Node Monitoring Period (5s)</li>
+<li>Grace Period (40s)</li>
+<li>Eviction Timeout (5m)
+<ul>
+<li>If a node is evicted from the cluster (5 Minutes since its last heart beat), There will be reprovisionning of the pods that were there (<strong>If they belong to a ReplicaSet</strong>).</li>
+</ul>
+</li>
+</ul>
+<h2 id="v2-replication-controller">V.2. Replication Controller</h2>
+<ul>
+<li>Deprecated (being replaced by ReplicaSet).</li>
+<li>Ensures that the desired number of replicas of a pod exists.</li>
+</ul>
+<h1 id="vi-kube-scheduler">VI. Kube Scheduler</h1>
+<ul>
+<li>Decides which pod goes to which node.</li>
+<li>2 Phases to decide:
+<ul>
+<li>Filter unsuitable nodes.</li>
+<li>Rand the rest: Assign priority function (score on 10)</li>
+</ul>
+</li>
+</ul>
+<h1 id="vii-kubelet">VII. Kubelet</h1>
+<ul>
+<li>Register the node with the K8S Cluster.</li>
+<li>It is manually installed on the workers.</li>
+</ul>
+<h1 id="viii-kube-proxy">VIII. Kube Proxy</h1>
+<ul>
+<li>Process that runs on each node in the cluster that creates rules to forward traffic sent to services to the actual pods.</li>
+<li>Pod Networking Solution.</li>
+<li>A service is a virtual component that lives in the K8S memory.</li>
+</ul>
+<h1 id="ix-pods">IX. PODs</h1>
+<ul>
+<li>Smallest entity that can be created by K8S.</li>
+<li>POD ↔ Container: One to One relationship</li>
+<li><em><strong>BUT:</strong></em>
+<ul>
+<li>Helper Containers can be in the same pod.</li>
+<li>They refer to each other by localhost</li>
+<li>Can easily share storage</li>
+<li><strong>RARE CASE</strong></li>
+</ul>
+</li>
+</ul>
+<h1 id="x-yaml-in-k8s">X. YAML in K8S:</h1>
+<ul>
+<li>Main properties:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">v1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Pod</span><span class="w"> </span><span class="c"># [ReplicaSet | Deployment | etc ...]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">spec:	</span><span class="w">
+</span></span></span></code></pre></div><ul>
+<li><em><strong>Commands:</strong></em>
+<ul>
+<li><code>kubectl create -f pod_definition.yml</code></li>
+<li><code>kubectl apply -f pod_definition.yml</code></li>
+<li><code>kubectl describe pod [POD-NAME]</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="xi-replicaset">XI. ReplicaSet</h1>
+<ul>
+<li>
+<p>Replicates Pods</p>
+</li>
+<li>
+<p>Ensure X number of Pods are running.</p>
+<ul>
+<li>It is an update on Replication Controller.</li>
+</ul>
+</li>
+<li>
+<p><code>apiVersion: apps/v1</code> for ReplicaSet</p>
+</li>
+<li>
+<p><code>apiVersion: v1</code> for Replication Controller</p>
+</li>
+<li>
+<p>For ReplicaSet, there is another mandatory fields under spec:</p>
+<ul>
+<li><strong>template:</strong> It contains the definition of template pods</li>
+<li><strong>replicas:</strong> the number of replicas</li>
+<li><strong>selector:</strong> (MatchLabels:) it matches labels to add already running pods to the ReplicaSet.</li>
+</ul>
+</li>
+<li>
+<p>Scaling a ReplicaSet can be done by:</p>
+<ul>
+<li>Changing the yaml file and re-applying it.</li>
+<li><code>kubectl scale --replicas=25 -f file.yml</code></li>
+<li><code>kubectl scale --replicas=25 replicatset [RS-NAME]</code></li>
+</ul>
+<p>⇒ Both commands only change the loaded conf, if the cluster restarts it will take the hard coded replicas number again.</p>
+</li>
+</ul>
+<h1 id="xii-deployment">XII. Deployment</h1>
+<ul>
+<li>Enable Rolling-Updates</li>
+<li>Undo changes</li>
+<li>Pause</li>
+<li>Resule changes</li>
+</ul>
+<p>⇒ For pods.</p>
+<ul>
+<li>apiVersion: app/v1 (same as RS)</li>
+<li><code>kubectl get all</code></li>
+</ul>
+<h1 id="xiii-services">XIII. Services</h1>
+<ul>
+<li>
+<p>Enables communications within &amp; outside of the app.</p>
+</li>
+<li>
+<p>Use Cases:</p>
+<ul>
+<li><em><strong>NodePort:</strong></em> Forward the port to a host’s port.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">v1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Service</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">kubia-nodeport</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">NodePort</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="m">80</span><span class="w">            </span><span class="c"># Mandatory</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">targetPort</span><span class="p">:</span><span class="w"> </span><span class="m">8080</span><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">nodePort</span><span class="p">:</span><span class="w"> </span><span class="m">30123</span><span class="w">     </span><span class="c"># From 30000 to 32767</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">selector</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">app</span><span class="p">:</span><span class="w"> </span><span class="l">kubia</span><span class="w">
+</span></span></span></code></pre></div><ul>
+<li><em><strong>ClusterIP:</strong></em> Creates a Virtual IP inside the Cluster to enable communication between objects.</li>
+<li><em><strong>LoadBalancer</strong></em></li>
+</ul>
+</li>
+<li>
+<p><em><strong>Commands:</strong></em></p>
+<ul>
+<li><code>kubectl get svc</code></li>
+<li><code>kubectl describe svc [NAME]</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="xiv-namespaces">XIV. Namespaces</h1>
+<ul>
+<li>Default namespace is “default”.</li>
+<li>Namespaces created by default: default, kube-system, kube-public</li>
+</ul>
+<p>⇒ They contain isolated policies.</p>
+<ul>
+<li>Quotas can be defined for each namespace.</li>
+<li>When calling a service outside the default namespace:</li>
+</ul>
+<p>[Service-Name].[Namespace].svc.[DomainName_Of_K8S_Cluster]</p>
+<ul>
+<li>
+<p><em><strong>Commands:</strong></em></p>
+<ul>
+<li>
+<p><code>kubectl get pods --namespace=kube-system</code></p>
+</li>
+<li>
+<p><code>kubectl create -f pod-definition.yml --namespace=ProjectX</code></p>
+<p>⇒ Can also add <code>namespace: ProjectX</code> uner te metadata section.</p>
+</li>
+<li>
+<p><code>kubectl config set-context $(kubectl config current-context) --namespace=ProjectX</code></p>
+</li>
+<li>
+<p><code>kubectl get pods --all-namespaces</code></p>
+</li>
+<li>
+<p>Can Also create NS using a yaml file:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">v1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">Namespace</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">ProjectX</span><span class="w">
+</span></span></span></code></pre></div><ul>
+<li><em><strong>Resource Quota:</strong></em></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l">v1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l">ResourceQuota</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">metadata</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">ProjectX-Quota</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l">ProjectX</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">spec</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nt">hard</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nt">pods</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;10&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nt">requests.cpu</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;4&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nt">requests.memory</span><span class="p">:</span><span class="w"> </span><span class="l">5Gi</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nt">limits.cpu</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;10&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nt">limits.memory</span><span class="p">:</span><span class="w"> </span><span class="l">10Gi</span><span class="w">
+</span></span></span></code></pre></div></li>
+</ul>
+<h1 id="xv-kubectl-apply">XV. kubectl APPLY</h1>
+<ul>
+<li>
+<p>Create the object from a yaml file if not created.</p>
+</li>
+<li>
+<p>K8S takes the yaml file and adds to it a status field &amp; uses it as live conf (kubectl edit .. : will change the live version of the object)</p>
+</li>
+<li>
+<p>Every time a new conf applied to that object, it is transformed into json &amp; saved.</p>
+</li>
+<li>
+<p>A comprarison between those three files happens each time a new update of the object is applied. That comparison enables K8S to decide what will it do.</p>
+<p><em><strong>PS: DO NOT USE IMPERATIVE AND DECLARATIVE APPROACHES TOGETHER.</strong></em></p>
+</li>
+</ul>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/cka/">cka</a><a class="tag" href="/tags/kubernetes/">kubernetes</a><a class="tag" href="/tags/k8s/">k8s</a><a class="tag" href="/tags/sysadmin/">sysadmin</a><a class="tag" href="/tags/notes/">notes</a><a class="tag" href="/tags/cheatsheet/">cheatsheet</a><a class="tag" href="/tags/cheat-sheet/">cheat sheet</a><a class="tag" href="/tags/cheatsheets/">cheatsheets</a><a class="tag" href="/tags/cheat-sheets/">cheat sheets</a><a class="tag" href="/tags/cka-notes/">cka notes</a><a class="tag" href="/tags/cka-cheatsheet/">cka cheatsheet</a><a class="tag" href="/tags/cka-cheat-sheet/">cka cheat sheet</a><a class="tag" href="/tags/cka-cheatsheets/">cka cheatsheets</a><a class="tag" href="/tags/cka-cheat-sheets/">cka cheat sheets</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Mohamed Yassine Rejeb
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

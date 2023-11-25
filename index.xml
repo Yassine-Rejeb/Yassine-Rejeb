@@ -6,7 +6,29 @@
     <description>Recent content on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CKA Exam Notes: Core Concepts</title>
+      <link>/english/post/cka_notes/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/english/post/cka_notes/</guid>
+      
+        <description>My Notes for preparing for CKA Exam</description>
+      
+    </item>
+    
+    <item>
+      <title>CKA Exam Notes: Core Concepts</title>
+      <link>/post/cka_notes/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cka_notes/</guid>
+      
+        <description>My Notes for preparing for CKA Exam</description>
+      
+    </item>
+    
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
       <link>/english/post/traefik_lb/</link>
@@ -48,6 +70,28 @@
       <guid>/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
+      
+    </item>
+    
+    <item>
+      <title>My Notes for preparing for RHCSA Exam</title>
+      <link>/english/post/rhcsa_notes/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/english/post/rhcsa_notes/</guid>
+      
+        <description>My Notes for preparing for RHCSA Exam</description>
+      
+    </item>
+    
+    <item>
+      <title>My Notes for preparing for RHCSA Exam</title>
+      <link>/post/rhcsa_notes/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rhcsa_notes/</guid>
+      
+        <description>My Notes for preparing for RHCSA Exam</description>
       
     </item>
     
@@ -164,7 +208,7 @@
     <item>
       <title>whoami</title>
       <link>/english/post/whoami/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>/english/post/whoami/</guid>
       
@@ -175,7 +219,7 @@
     <item>
       <title>whoami</title>
       <link>/post/whoami/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/whoami/</guid>
       
@@ -235,7 +279,7 @@
       <guid>/imprint/</guid>
       
         <description>Legal Disclosure Information in accordance with the applicable law
-2022, Tunisia</description>
+2023, Tunisia</description>
       
     </item>
     
@@ -247,7 +291,7 @@
       <guid>/english/imprint/</guid>
       
         <description>Legal Disclosure Information in accordance with the applicable law
-2022, Tunisia</description>
+2023, Tunisia</description>
       
     </item>
     
