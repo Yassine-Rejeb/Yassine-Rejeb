@@ -2,7 +2,7 @@
 <p align="center">
 <div align="center" >
 
-## Hi there, I'm Yassine Rejeb (AKA M0D4S in CTFs & MYR4c in HTB)
+## Hi there, I'm Yassine Rejeb (AKA M0D4S)
 
 </div>
 <div align="center"><img src="https://readme-typing-svg.herokuapp.com?size=24&color=182533&center=true&vCenter=true&lines=Hello+%F0%9F%91%8B;Linux+enthusiast;CyberSecurity+enthusiast;CTF+Player;HTB+Player,Novice+though"></div>
@@ -63,7 +63,7 @@
 </p>
 -->
 # 📫 Connect with me
-If you have questions, or you have a project I'm available for freelancing and I'm looking for new opportunities,
+If you have questions, or you have help in a project, I'm available for freelancing and I'm looking for new opportunities,
 you can always contact me at: <br>
 
 <!-- Social Links -->

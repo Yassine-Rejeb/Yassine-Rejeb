@@ -1,7 +1,7 @@
 +++
 author = "M0D4S"
 title = "whoami"
-date = "2021-06-01"
+date = "2022-06-01"
 description = "Getting to know each other"
 tags = ["whoami","what-am-i-doing","studies","goals","hobbies"]
 +++

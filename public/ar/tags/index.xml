@@ -85,6 +85,215 @@
     </item>
     
     <item>
+      <title>ansible</title>
+      <link>/ar/tags/ansible/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/ansible/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>/ar/tags/automation/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/automation/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>/ar/tags/cloud/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/cloud/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>compliance</title>
+      <link>/ar/tags/compliance/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/compliance/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>dast</title>
+      <link>/ar/tags/dast/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/dast/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>/ar/tags/devops/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/devops/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>devsecops</title>
+      <link>/ar/tags/devsecops/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/devsecops/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DevStack</title>
+      <link>/ar/tags/devstack/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/devstack/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>jenkins</title>
+      <link>/ar/tags/jenkins/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/jenkins/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>openstack</title>
+      <link>/ar/tags/openstack/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/openstack/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>owasp</title>
+      <link>/ar/tags/owasp/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/owasp/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>owasp-zap</title>
+      <link>/ar/tags/owasp-zap/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/owasp-zap/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>pipeline</title>
+      <link>/ar/tags/pipeline/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/pipeline/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>sast</title>
+      <link>/ar/tags/sast/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/sast/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>sca</title>
+      <link>/ar/tags/sca/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/sca/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>/ar/tags/security/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/security/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>sonarqube</title>
+      <link>/ar/tags/sonarqube/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/sonarqube/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>terraform</title>
+      <link>/ar/tags/terraform/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/terraform/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>zap</title>
+      <link>/ar/tags/zap/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/zap/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
       <title>goals</title>
       <link>/ar/tags/goals/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
@@ -145,6 +354,17 @@
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/ar/tags/%D8%B9%D8%B1%D8%A8%D9%8A/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ci/cd</title>
+      <link>/ar/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/tags/ci/cd/</guid>
       
         <description></description>
       
