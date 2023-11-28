@@ -52,13 +52,13 @@ To deploy the solution, we need to follow these steps:
 <li>Rename the cloned repository to "SecOps":
 <pre><code>mv SecOps_OpenStack SecOps</code></pre>
 </li>
+<li>Go to the SecOps directory:
+<pre><code>cd SecOps</code></pre>
 <li> Download the OS image:
 <pre><code>setup/getCentOSCloud.sh</code></pre>
 </li>
 <li>Change the IP @ in the file setup/openrc with the IP of an interface that has access to internet. The line is: export OS_AUTH_URL=http://{{IP@}}/identity
 </li>
-<li>Go to the SecOps directory:
-<pre><code>cd SecOps</code></pre>
 </li>
 <li>Start with running the prepare_infra.sh script:
 <pre><code>./prepare_infra.sh</code></pre>
