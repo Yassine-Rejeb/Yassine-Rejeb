@@ -6,7 +6,18 @@
     <description>Recent content in docker-swarm on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/ar/tags/docker-swarm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/ar/tags/docker-swarm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing a Highly Available Web Application with modsecurity WAF</title>
+      <link>/ar/english/post/waf_4_ha/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/english/post/waf_4_ha/</guid>
+      
+        <description>Securing a Highly Available Web Application with modsecurity WAF</description>
+      
+    </item>
+    
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
       <link>/ar/english/post/traefik_lb/</link>

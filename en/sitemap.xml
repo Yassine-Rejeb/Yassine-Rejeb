@@ -91,7 +91,7 @@
     <loc>/tags/docker/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/docker-swarm/</loc>
+    <loc>/tags/docker-compose/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/https-termination/</loc>
@@ -129,6 +129,9 @@
   </url><url>
     <loc>/tags/web-application-firewall/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/docker-swarm/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/english/post/traefik_lb/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>

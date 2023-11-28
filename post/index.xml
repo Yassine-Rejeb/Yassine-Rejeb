@@ -19,13 +19,13 @@
     </item>
     
     <item>
-      <title>Securing a Highly Available Web Application with WAF</title>
+      <title>Securing a Highly Available Web Application with modsecurity WAF</title>
       <link>/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/waf_4_ha/</guid>
       
-        <description>Securing a Highly Available Web Application with WAF</description>
+        <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
     </item>
     

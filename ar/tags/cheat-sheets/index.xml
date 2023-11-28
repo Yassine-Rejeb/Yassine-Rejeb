@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cheat sheets on Website of Mohamed Yassine Rejeb</title>
+    <link>/ar/tags/cheat-sheets/</link>
+    <description>Recent content in cheat sheets on Website of Mohamed Yassine Rejeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/ar/tags/cheat-sheets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CKA Exam Notes: Core Concepts</title>
+      <link>/ar/english/post/cka_notes/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/english/post/cka_notes/</guid>
+      
+        <description>My Notes for preparing for CKA Exam</description>
+      
+    </item>
+    
+    <item>
+      <title>My Notes for preparing for RHCSA Exam</title>
+      <link>/ar/english/post/rhcsa_notes/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/ar/english/post/rhcsa_notes/</guid>
+      
+        <description>My Notes for preparing for RHCSA Exam</description>
+      
+    </item>
+    
+  </channel>
+</rss>
