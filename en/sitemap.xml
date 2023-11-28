@@ -86,30 +86,54 @@
                 />
   </url><url>
     <loc>/tags/cloud-native/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/docker/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/docker-swarm/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/https-termination/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/load-balancing/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/modsecurity/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/owasp/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/owasp-modsecurity-crs/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/reverse-proxy/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/english/post/waf_4_ha/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/waf_4_ha/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/security/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/traefik/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/waf/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/web-application-firewall/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/english/post/traefik_lb/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/traefik_lb/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/load-balancing/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/reverse-proxy/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/traefik/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/ansible/</loc>
@@ -148,9 +172,6 @@
     <loc>/tags/openstack/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/owasp/</loc>
-    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/owasp-zap/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -161,9 +182,6 @@
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/sca/</loc>
-    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/security/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/sonarqube/</loc>

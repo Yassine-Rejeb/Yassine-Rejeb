@@ -6,7 +6,29 @@
     <description>Recent content in docker-swarm on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/docker-swarm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/docker-swarm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing a Highly Available Web Application with WAF</title>
+      <link>/english/post/waf_4_ha/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/english/post/waf_4_ha/</guid>
+      
+        <description>Securing a Highly Available Web Application with WAF</description>
+      
+    </item>
+    
+    <item>
+      <title>Securing a Highly Available Web Application with WAF</title>
+      <link>/post/waf_4_ha/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/waf_4_ha/</guid>
+      
+        <description>Securing a Highly Available Web Application with WAF</description>
+      
+    </item>
+    
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
       <link>/english/post/traefik_lb/</link>

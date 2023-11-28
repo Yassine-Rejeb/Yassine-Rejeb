@@ -164,7 +164,7 @@
     <item>
       <title>cloud-native</title>
       <link>/tags/cloud-native/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/cloud-native/</guid>
       
@@ -175,7 +175,7 @@
     <item>
       <title>docker</title>
       <link>/tags/docker/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/docker/</guid>
       
@@ -186,7 +186,7 @@
     <item>
       <title>docker-swarm</title>
       <link>/tags/docker-swarm/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/docker-swarm/</guid>
       
@@ -197,7 +197,7 @@
     <item>
       <title>https-termination</title>
       <link>/tags/https-termination/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/https-termination/</guid>
       
@@ -208,7 +208,7 @@
     <item>
       <title>load-balancing</title>
       <link>/tags/load-balancing/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/load-balancing/</guid>
       
@@ -217,9 +217,42 @@
     </item>
     
     <item>
+      <title>modsecurity</title>
+      <link>/tags/modsecurity/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/modsecurity/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>owasp</title>
+      <link>/tags/owasp/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/owasp/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>owasp modsecurity crs</title>
+      <link>/tags/owasp-modsecurity-crs/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/owasp-modsecurity-crs/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
       <title>reverse-proxy</title>
       <link>/tags/reverse-proxy/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/reverse-proxy/</guid>
       
@@ -228,11 +261,44 @@
     </item>
     
     <item>
+      <title>security</title>
+      <link>/tags/security/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/security/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
       <title>traefik</title>
       <link>/tags/traefik/</link>
-      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/traefik/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>waf</title>
+      <link>/tags/waf/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/waf/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>web application firewall</title>
+      <link>/tags/web-application-firewall/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/web-application-firewall/</guid>
       
         <description></description>
       
@@ -349,17 +415,6 @@
     </item>
     
     <item>
-      <title>owasp</title>
-      <link>/tags/owasp/</link>
-      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/owasp/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
       <title>owasp-zap</title>
       <link>/tags/owasp-zap/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
@@ -398,17 +453,6 @@
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/sca/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>/tags/security/</link>
-      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/security/</guid>
       
         <description></description>
       
