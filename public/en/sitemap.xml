@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -15,8 +15,209 @@
                 href="/"
                 />
   </url><url>
+    <loc>/tags/cheat-sheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cheat-sheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cheat-sheet/"
+                />
+  </url><url>
+    <loc>/tags/cheat-sheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cheat-sheets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cheat-sheets/"
+                />
+  </url><url>
+    <loc>/tags/cheatsheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cheatsheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cheatsheet/"
+                />
+  </url><url>
+    <loc>/tags/cheatsheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cheatsheets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cheatsheets/"
+                />
+  </url><url>
+    <loc>/tags/cka/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cka/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cka/"
+                />
+  </url><url>
+    <loc>/tags/cka-cheat-sheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cka-cheat-sheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cka-cheat-sheet/"
+                />
+  </url><url>
+    <loc>/tags/cka-cheat-sheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cka-cheat-sheets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cka-cheat-sheets/"
+                />
+  </url><url>
+    <loc>/tags/cka-cheatsheet/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cka-cheatsheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cka-cheatsheet/"
+                />
+  </url><url>
+    <loc>/tags/cka-cheatsheets/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cka-cheatsheets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cka-cheatsheets/"
+                />
+  </url><url>
+    <loc>/post/cka_notes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/cka-notes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/cka-notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/cka-notes/"
+                />
+  </url><url>
+    <loc>/tags/k8s/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/k8s/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/k8s/"
+                />
+  </url><url>
+    <loc>/tags/kubernetes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/kubernetes/"
+                />
+  </url><url>
+    <loc>/tags/notes/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/notes/"
+                />
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/sysadmin/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/sysadmin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/sysadmin/"
+                />
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url><url>
     <loc>/tags/cloud-native/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -29,7 +230,7 @@
                 />
   </url><url>
     <loc>/tags/docker/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -42,7 +243,7 @@
                 />
   </url><url>
     <loc>/tags/docker-swarm/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -55,7 +256,7 @@
                 />
   </url><url>
     <loc>/tags/https-termination/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -67,11 +268,8 @@
                 href="/tags/https-termination/"
                 />
   </url><url>
-    <loc>/post/traefik_lb/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/load-balancing/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -83,11 +281,47 @@
                 href="/tags/load-balancing/"
                 />
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <loc>/tags/modsecurity/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/modsecurity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/modsecurity/"
+                />
+  </url><url>
+    <loc>/tags/owasp/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/owasp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/owasp/"
+                />
+  </url><url>
+    <loc>/tags/owasp-modsecurity-crs/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/owasp-modsecurity-crs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/owasp-modsecurity-crs/"
+                />
   </url><url>
     <loc>/tags/reverse-proxy/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -99,21 +333,24 @@
                 href="/tags/reverse-proxy/"
                 />
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <loc>/post/waf_4_ha/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/security/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/tags/"
+                href="/ar/tags/security/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/tags/security/"
                 />
   </url><url>
     <loc>/tags/traefik/</loc>
-    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -124,6 +361,35 @@
                 hreflang="en"
                 href="/tags/traefik/"
                 />
+  </url><url>
+    <loc>/tags/waf/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/waf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/waf/"
+                />
+  </url><url>
+    <loc>/tags/web-application-firewall/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/web-application-firewall/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/web-application-firewall/"
+                />
+  </url><url>
+    <loc>/post/traefik_lb/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/ansible/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
@@ -258,19 +524,6 @@
                 href="/tags/openstack/"
                 />
   </url><url>
-    <loc>/tags/owasp/</loc>
-    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="/ar/tags/owasp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/owasp/"
-                />
-  </url><url>
     <loc>/tags/owasp-zap/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -323,19 +576,6 @@
                 href="/tags/sca/"
                 />
   </url><url>
-    <loc>/tags/security/</loc>
-    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="/ar/tags/security/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/security/"
-                />
-  </url><url>
     <loc>/tags/sonarqube/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -375,6 +615,113 @@
                 href="/tags/zap/"
                 />
   </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/linux/"
+                />
+  </url><url>
+    <loc>/post/rhcsa_notes/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/redhat/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/redhat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/redhat/"
+                />
+  </url><url>
+    <loc>/tags/rhcsa/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/rhcsa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rhcsa/"
+                />
+  </url><url>
+    <loc>/tags/rhcsa-cheat-sheet/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/rhcsa-cheat-sheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rhcsa-cheat-sheet/"
+                />
+  </url><url>
+    <loc>/tags/rhcsa-cheat-sheets/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/rhcsa-cheat-sheets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rhcsa-cheat-sheets/"
+                />
+  </url><url>
+    <loc>/tags/rhcsa-cheatsheet/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/rhcsa-cheatsheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rhcsa-cheatsheet/"
+                />
+  </url><url>
+    <loc>/tags/rhcsa-cheatsheets/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/rhcsa-cheatsheets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rhcsa-cheatsheets/"
+                />
+  </url><url>
+    <loc>/tags/rhcsa-notes/</loc>
+    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/rhcsa-notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rhcsa-notes/"
+                />
+  </url><url>
     <loc>/archives/</loc>
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -391,7 +738,7 @@
     <lastmod>2022-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/goals/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -404,7 +751,7 @@
                 />
   </url><url>
     <loc>/tags/hobbies/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -417,7 +764,7 @@
                 />
   </url><url>
     <loc>/tags/studies/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -430,7 +777,7 @@
                 />
   </url><url>
     <loc>/tags/what-am-i-doing/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -443,7 +790,7 @@
                 />
   </url><url>
     <loc>/tags/whoami/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -456,7 +803,7 @@
                 />
   </url><url>
     <loc>/post/whoami/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/imprint/</loc>
     <priority>0</priority>
