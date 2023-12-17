@@ -1,10 +1,9 @@
-#baseURL = "https://example.com"
+baseURL = "https://m0d4s.me"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Mohamed Yassine Rejeb"
 
 # theme as hugo module
-#theme = "github.com/lxndrblz/anatole"
 # theme as git submodule
 theme = "anatole"
 
@@ -25,6 +24,11 @@ pygmentsCodefencesGuessSyntax = true
 
 # Localized dates requires Hugo version 0.87.0
 localizedDates = false
+
+# Add indexing for search engines
+# Needs Hugo version 0.60.0 or higher
+# https://gohugo.io/getting-started/configuration-markup#enableEmoji
+
 
 [markup]
     [markup.goldmark]

@@ -38,8 +38,8 @@
   
   <link
     rel="stylesheet"
-    href="/css/markupHighlight.min.7e4863695018b2e84dc35ce611f05cfaabf25108af8f99ae6dfae5a2e8c05f4b.css"
-    integrity="sha256-fkhjaVAYsuhNw1zmEfBc&#43;qvyUQivj5mubfrloujAX0s="
+    href="/css/markupHighlight.min.13fea980cb6366009bf6fc9d9ff7a23305d1e20d8ea862b7ef090f69f74bf8e2.css"
+    integrity="sha256-E/6pgMtjZgCb9vydn/eiMwXR4g2OqGK37wkPafdL&#43;OI="
     crossorigin="anonymous"
     type="text/css"
   />
@@ -194,7 +194,7 @@
 
     ,
         "url" : "\/ar\/english\/post\/waf_4_ha\/",
-        "wordCount" : "516",
+        "wordCount" : "804",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -205,7 +205,7 @@
         ,
 
       
-      "docker swarm"
+      "docker-compose"
 
     
       
@@ -495,14 +495,14 @@
 <strong style="color: red;">PS:</strong> This project is built upon another project check it <a href="/post/traefik_lb/" target="_blank">HERE</a>.
 </p>
 <p>
-The image above presents the architecure of the solution. The solution is composed of :
+The image above presents the architecture of the solution. The solution is composed of :
 <ul>
+<li>A Modsecurity WAF that is used to protect the web application and provide HTTPS termination.</li>
 <li>A Traefik Load Balancer that is used to route the traffic to the web application and balance the load between its replicas</li>
-<li>A Modsecurity WAF that is used to protect the web application</li>
 <li>A web application that is used as a subject to protect: odoo (ERP)</li>
 <li>A database that is used by the web application (PostGreSQL)</li>
 </ul>
-<p>The WAF is configured to protect the web application from the OWASP Top 10 vulnerabilities. The WAF is configured to block the requests that contain malicious payloads and to block the requests that are not compliant with the OWASP Modsecurity Core Rule Set (CRS).</p>
+<p>The WAF is configured to protect the web application from the OWASP Top 10 vulnerabilities. It is configured to block the requests that contain malicious payloads and to block the requests that are not compliant with the OWASP Modsecurity Core Rule Set (CRS). Modsecurity CRS contains by default rules that protect the web application from the OWASP Top 10 vulnerabilities. <br></p>
 <h2 id="how-to-implement-it-">How to implement it ?</h2>
 <p>
 First, we need to have the definitions of the services that we want to deploy in a docker-compose file. Next, we need to have a docker swarm cluster up and running. Then, we need to deploy the services in the cluster using the docker stack deploy command. <br>
@@ -574,7 +574,6 @@ Here is the docker-compose file that I used to deploy the services:
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">labels</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.traefik.rule=Host(`traefik.m0d4s.me`)&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.traefik.service=api@internal&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;traefik.http.routers.odoo-https.rule=Host(`odoo-sec.m0d4s.me`)&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">networks</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">net1</span><span class="p">:</span><span class="w">
 </span></span></span></code></pre></div><p><strong>Make sure to:</strong> <br></p>
@@ -673,12 +672,46 @@ Here is the docker-compose file that I used to deploy the services:
 </span></span><span class="line"><span class="cl">SecRequestBodyNoFilesLimit <span class="m">131072</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Customize other ModSecurity settings as needed</span>
-</span></span></code></pre></div></div>
+</span></span></code></pre></div><h2 id="how-to-deploy-it-">How to deploy it ?</h2>
+<p>
+To deploy the solution, we need to follow these steps:
+<ol>
+<li>Install docker and docker-compose on your machine</li>
+<li>Create the files and directories as needed by the docker-compose file: docker-compose.yml, modsecurity.conf, default.conf, odoo/.env, postgresql/.env</li>
+<li>Change the domain names in the docker-compose file to your own domain names OR add the current domain names to your /etc/hosts file</li>
+<li>Change the permissions of the directory odoo to 777</li>
+<li>Run the following command to deploy the solution:
+<pre><code>docker-compose up -d</code></pre>
+<li>Open the browser and go to the domain name of the odoo service. In my case, it is: <a href="https://odoo.m0d4s.me" target="_blank">https://odoo.m0d4s.me</a>, You will be prompted to create a database and to create a user. Once you do that, you will be redirected to the login page. You can login with the user that you created.</li>
+</ol>
+</p>
+<h2 id="how-to-destroy-it-">How to destroy it ?</h2>
+<p>
+To destroy the solution, we need to run the following command:
+<pre><code>docker stack rm modsecurity</code></pre>
+</p>
+<h2 id="how-to-test-it-">How to test it ?</h2>
+<p>
+To test the solution, we need to open a browser and go to the domain name of the odoo service. In my case, it is: <a href="https://odoo.m0d4s.me" target="_blank">https://odoo.m0d4s.me</a>. <br>
+We can also test the solution by trying basic attacks on the web application and see if the WAF is blocking them or not. <br>
+Here are some examples of attacks that we can try:
+<ul>
+<li>SQL Injection: <a href="https://odoo.m0d4s.me/web/login?login=admin%27%20or%201%3D1--" target="_blank">https://odoo.m0d4s.me/web/login?login=admin%27%20or%201%3D1--</a></li>
+<li>XSS: <a href="https://odoo.m0d4s.me/web/login?login=%3Cscript%3Ealert(%22XSS%22)%3C/script%3E" target="_blank">https://odoo.m0d4s.me/web/login?login=%3Cscript%3Ealert(%22XSS%22)%3C/script%3E</a></li>
+<li>Command Injection: <a href="https://odoo.m0d4s.me/web/login?login=admin%27%3B%20cat%20/etc/passwd%20%23" target="_blank">https://odoo.m0d4s.me/web/login?login=admin%27%3B%20cat%20/etc/passwd%20%23</a></li>
+</ul>
+</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>
+In this article, we saw how to secure a highly available web application with a WAF. We saw how to deploy the solution and how to test it. <br>
+I hope you enjoyed this article and found it useful. <br>
+Thank you for reading. <br>
+</div>
     <div class="post__footer">
       
 
       
-        <span><a class="tag" href="/ar/tags/docker/">docker</a><a class="tag" href="/ar/tags/docker-swarm/">docker swarm</a><a class="tag" href="/ar/tags/traefik/">traefik</a><a class="tag" href="/ar/tags/waf/">waf</a><a class="tag" href="/ar/tags/web-application-firewall/">web application firewall</a><a class="tag" href="/ar/tags/cloud-native/">cloud native</a><a class="tag" href="/ar/tags/reverse-proxy/">reverse proxy</a><a class="tag" href="/ar/tags/https-termination/">https termination</a><a class="tag" href="/ar/tags/load-balancing/">load balancing</a><a class="tag" href="/ar/tags/security/">security</a><a class="tag" href="/ar/tags/modsecurity/">modsecurity</a><a class="tag" href="/ar/tags/owasp/">owasp</a><a class="tag" href="/ar/tags/owasp-modsecurity-crs/">owasp modsecurity crs</a></span>
+        <span><a class="tag" href="/ar/tags/docker/">docker</a><a class="tag" href="/ar/tags/docker-compose/">docker-compose</a><a class="tag" href="/ar/tags/traefik/">traefik</a><a class="tag" href="/ar/tags/waf/">waf</a><a class="tag" href="/ar/tags/web-application-firewall/">web application firewall</a><a class="tag" href="/ar/tags/cloud-native/">cloud native</a><a class="tag" href="/ar/tags/reverse-proxy/">reverse proxy</a><a class="tag" href="/ar/tags/https-termination/">https termination</a><a class="tag" href="/ar/tags/load-balancing/">load balancing</a><a class="tag" href="/ar/tags/security/">security</a><a class="tag" href="/ar/tags/modsecurity/">modsecurity</a><a class="tag" href="/ar/tags/owasp/">owasp</a><a class="tag" href="/ar/tags/owasp-modsecurity-crs/">owasp modsecurity crs</a></span>
 
 
       

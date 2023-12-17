@@ -245,17 +245,17 @@
                 href="/ar/tags/docker/"
                 />
   </url><url>
-    <loc>/ar/tags/docker-swarm/</loc>
+    <loc>/ar/tags/docker-compose/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/docker-swarm/"
+                href="/tags/docker-compose/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/tags/docker-swarm/"
+                href="/ar/tags/docker-compose/"
                 />
   </url><url>
     <loc>/ar/tags/https-termination/</loc>
@@ -389,6 +389,19 @@
                 rel="alternate"
                 hreflang="ar"
                 href="/ar/tags/web-application-firewall/"
+                />
+  </url><url>
+    <loc>/ar/tags/docker-swarm/</loc>
+    <lastmod>2023-10-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/docker-swarm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="/ar/tags/docker-swarm/"
                 />
   </url><url>
     <loc>/ar/english/post/traefik_lb/</loc>
