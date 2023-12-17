@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on M0D4S&#39;s blog</title>
-    <link>/tags/index/</link>
+    <link>https://m0d4s.me/tags/index/</link>
     <description>Recent content in index on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://m0d4s.me/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>/arabic/post/</link>
+      <link>https://m0d4s.me/arabic/post/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/arabic/post/</guid>
+      <guid>https://m0d4s.me/arabic/post/</guid>
       
         <description></description>
       
@@ -19,10 +19,10 @@
     
     <item>
       <title>Posts</title>
-      <link>/english/post/</link>
+      <link>https://m0d4s.me/english/post/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>/english/post/</guid>
+      <guid>https://m0d4s.me/english/post/</guid>
       
         <description></description>
       
@@ -30,10 +30,10 @@
     
     <item>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://m0d4s.me/post/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>/post/</guid>
+      <guid>https://m0d4s.me/post/</guid>
       
         <description></description>
       

@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/ar/categories/</loc>
+    <loc>https://m0d4s.me/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://m0d4s.me/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/categories/"
+                href="https://m0d4s.me/ar/categories/"
                 />
   </url><url>
-    <loc>/ar/series/</loc>
+    <loc>https://m0d4s.me/ar/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="https://m0d4s.me/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/series/"
+                href="https://m0d4s.me/ar/series/"
                 />
   </url><url>
-    <loc>/ar/tags/</loc>
+    <loc>https://m0d4s.me/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://m0d4s.me/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/tags/"
+                href="https://m0d4s.me/ar/tags/"
                 />
   </url><url>
-    <loc>/ar/</loc>
+    <loc>https://m0d4s.me/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://m0d4s.me/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/"
+                href="https://m0d4s.me/ar/"
                 />
   </url>
 </urlset>
