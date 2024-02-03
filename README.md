@@ -21,7 +21,7 @@
 💡  I am passionate about linux and cybersecurity with a side interest in cloud.<br>
 💻  I’m currently studying Cyber Security.<br>
 👨🏻‍💻  I’m following a pathway in both fields cloud infrastructure and cyber security.<br>
-🙌🏼  2022 Goals: Better myself in ansible automation.<br>
+🙌🏼  2024 Goals: Better myself in containerization and K8S.<br>
 
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/640px-Tux.svg.png" alt="UNIX Like Systems" width="10" height="15"  style="vertical-align:top; margin:4px"> Skills <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px">
 
