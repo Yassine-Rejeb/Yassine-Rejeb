@@ -1,4 +1,5 @@
 baseURL = "https://yassine-rejeb.github.io/Yassine-Rejeb/"
+relativeURLs = true
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Mohamed Yassine Rejeb"
