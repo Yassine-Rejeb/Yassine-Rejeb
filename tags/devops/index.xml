@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/tags/devops/</link>
+    <link>https://yassine-rejeb.github.io/tags/devops/</link>
     <description>Recent content in Devops on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/devsecops-automation/</link>
+      <link>https://yassine-rejeb.github.io/english/post/devsecops-automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/devsecops-automation/</guid>
+      <guid>https://yassine-rejeb.github.io/english/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</link>
+      <link>https://yassine-rejeb.github.io/post/devsecops-automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</guid>
+      <guid>https://yassine-rejeb.github.io/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
       

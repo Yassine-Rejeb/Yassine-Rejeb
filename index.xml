@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/</link>
+    <link>https://yassine-rejeb.github.io/</link>
     <description>Recent content on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CKA Exam Notes: Core Concepts</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/cka_notes/</link>
+      <link>https://yassine-rejeb.github.io/english/post/cka_notes/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/cka_notes/</guid>
+      <guid>https://yassine-rejeb.github.io/english/post/cka_notes/</guid>
       
         <description>My Notes for preparing for CKA Exam</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>CKA Exam Notes: Core Concepts</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/cka_notes/</link>
+      <link>https://yassine-rejeb.github.io/post/cka_notes/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/cka_notes/</guid>
+      <guid>https://yassine-rejeb.github.io/post/cka_notes/</guid>
       
         <description>My Notes for preparing for CKA Exam</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Securing a Highly Available Web Application with modsecurity WAF</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/waf_4_ha/</link>
+      <link>https://yassine-rejeb.github.io/english/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/waf_4_ha/</guid>
+      <guid>https://yassine-rejeb.github.io/english/post/waf_4_ha/</guid>
       
         <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Securing a Highly Available Web Application with modsecurity WAF</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</link>
+      <link>https://yassine-rejeb.github.io/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</guid>
+      <guid>https://yassine-rejeb.github.io/post/waf_4_ha/</guid>
       
         <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/traefik_lb/</link>
+      <link>https://yassine-rejeb.github.io/english/post/traefik_lb/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/traefik_lb/</guid>
+      <guid>https://yassine-rejeb.github.io/english/post/traefik_lb/</guid>
       
         <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/traefik_lb/</link>
+      <link>https://yassine-rejeb.github.io/post/traefik_lb/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/traefik_lb/</guid>
+      <guid>https://yassine-rejeb.github.io/post/traefik_lb/</guid>
       
         <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/devsecops-automation/</link>
+      <link>https://yassine-rejeb.github.io/english/post/devsecops-automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/devsecops-automation/</guid>
+      <guid>https://yassine-rejeb.github.io/english/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</link>
+      <link>https://yassine-rejeb.github.io/post/devsecops-automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</guid>
+      <guid>https://yassine-rejeb.github.io/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>My Notes for preparing for RHCSA Exam</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/rhcsa_notes/</link>
+      <link>https://yassine-rejeb.github.io/english/post/rhcsa_notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/rhcsa_notes/</guid>
+      <guid>https://yassine-rejeb.github.io/english/post/rhcsa_notes/</guid>
       
         <description>My Notes for preparing for RHCSA Exam</description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>My Notes for preparing for RHCSA Exam</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/rhcsa_notes/</link>
+      <link>https://yassine-rejeb.github.io/post/rhcsa_notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/rhcsa_notes/</guid>
+      <guid>https://yassine-rejeb.github.io/post/rhcsa_notes/</guid>
       
         <description>My Notes for preparing for RHCSA Exam</description>
       
@@ -119,10 +119,10 @@
     
     <item>
       <title></title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/archives/</link>
+      <link>https://yassine-rejeb.github.io/archives/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/archives/</guid>
+      <guid>https://yassine-rejeb.github.io/archives/</guid>
       
         <description></description>
       
@@ -130,10 +130,10 @@
     
     <item>
       <title></title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/archives/</link>
+      <link>https://yassine-rejeb.github.io/english/archives/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/archives/</guid>
+      <guid>https://yassine-rejeb.github.io/english/archives/</guid>
       
         <description></description>
       
@@ -141,10 +141,10 @@
     
     <item>
       <title>About Me</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/about/</link>
+      <link>https://yassine-rejeb.github.io/about/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/about/</guid>
+      <guid>https://yassine-rejeb.github.io/about/</guid>
       
         <description>Hugo, the world&#39;s fastest framework for building websites</description>
       
@@ -152,10 +152,10 @@
     
     <item>
       <title>About Me</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/about/</link>
+      <link>https://yassine-rejeb.github.io/english/about/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/about/</guid>
+      <guid>https://yassine-rejeb.github.io/english/about/</guid>
       
         <description>Hugo, the world&#39;s fastest framework for building websites</description>
       
@@ -163,10 +163,10 @@
     
     <item>
       <title>Awards</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/awards/</link>
+      <link>https://yassine-rejeb.github.io/awards/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/awards/</guid>
+      <guid>https://yassine-rejeb.github.io/awards/</guid>
       
         <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
       
@@ -174,10 +174,10 @@
     
     <item>
       <title>Awards</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/awards/</link>
+      <link>https://yassine-rejeb.github.io/english/awards/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/awards/</guid>
+      <guid>https://yassine-rejeb.github.io/english/awards/</guid>
       
         <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
       
@@ -185,10 +185,10 @@
     
     <item>
       <title>Certifications</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/certifications/</link>
+      <link>https://yassine-rejeb.github.io/certifications/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/certifications/</guid>
+      <guid>https://yassine-rejeb.github.io/certifications/</guid>
       
         <description>Yass Certifications</description>
       
@@ -196,10 +196,10 @@
     
     <item>
       <title>Certifications</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/certifications/</link>
+      <link>https://yassine-rejeb.github.io/english/certifications/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/certifications/</guid>
+      <guid>https://yassine-rejeb.github.io/english/certifications/</guid>
       
         <description>Yass Certifications</description>
       
@@ -207,10 +207,10 @@
     
     <item>
       <title>Contact</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/contact/</link>
+      <link>https://yassine-rejeb.github.io/contact/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/contact/</guid>
+      <guid>https://yassine-rejeb.github.io/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -218,10 +218,10 @@
     
     <item>
       <title>Contact</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/contact/</link>
+      <link>https://yassine-rejeb.github.io/english/contact/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/contact/</guid>
+      <guid>https://yassine-rejeb.github.io/english/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -229,10 +229,10 @@
     
     <item>
       <title>whoami</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/whoami/</link>
+      <link>https://yassine-rejeb.github.io/english/post/whoami/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/post/whoami/</guid>
+      <guid>https://yassine-rejeb.github.io/english/post/whoami/</guid>
       
         <description>Getting to know each other</description>
       
@@ -240,10 +240,10 @@
     
     <item>
       <title>whoami</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/whoami/</link>
+      <link>https://yassine-rejeb.github.io/post/whoami/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/whoami/</guid>
+      <guid>https://yassine-rejeb.github.io/post/whoami/</guid>
       
         <description>Getting to know each other</description>
       
@@ -251,10 +251,10 @@
     
     <item>
       <title></title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/archives/</link>
+      <link>https://yassine-rejeb.github.io/arabic/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/archives/</guid>
+      <guid>https://yassine-rejeb.github.io/arabic/archives/</guid>
       
         <description></description>
       
@@ -262,10 +262,10 @@
     
     <item>
       <title>للتواصل</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/contact/</link>
+      <link>https://yassine-rejeb.github.io/arabic/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/contact/</guid>
+      <guid>https://yassine-rejeb.github.io/arabic/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -273,10 +273,10 @@
     
     <item>
       <title>نموذج عربي</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/post/arabic_example/</link>
+      <link>https://yassine-rejeb.github.io/arabic/post/arabic_example/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/post/arabic_example/</guid>
+      <guid>https://yassine-rejeb.github.io/arabic/post/arabic_example/</guid>
       
         <description>نص عربي سريع</description>
       
@@ -284,10 +284,10 @@
     
     <item>
       <title>حول</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/about/</link>
+      <link>https://yassine-rejeb.github.io/arabic/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/arabic/about/</guid>
+      <guid>https://yassine-rejeb.github.io/arabic/about/</guid>
       
         <description>Hugo, the world&#39;s fastest framework for building websites</description>
       
@@ -295,10 +295,10 @@
     
     <item>
       <title></title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/english/imprint/</link>
+      <link>https://yassine-rejeb.github.io/english/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/english/imprint/</guid>
+      <guid>https://yassine-rejeb.github.io/english/imprint/</guid>
       
         <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
 &lt;p&gt;Information in accordance with the applicable law&lt;/p&gt;
@@ -308,10 +308,10 @@
     
     <item>
       <title></title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/imprint/</link>
+      <link>https://yassine-rejeb.github.io/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/imprint/</guid>
+      <guid>https://yassine-rejeb.github.io/imprint/</guid>
       
         <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
 &lt;p&gt;Information in accordance with the applicable law&lt;/p&gt;
