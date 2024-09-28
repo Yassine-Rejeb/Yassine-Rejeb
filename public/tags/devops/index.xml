@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devops on M0D4S&#39;s blog</title>
-    <link>/tags/devops/</link>
+    <link>https://m0d4s.me/tags/devops/</link>
     <description>Recent content in devops on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://m0d4s.me/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
-      <link>/post/devsecops-automation/</link>
+      <link>https://m0d4s.me/post/devsecops-automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>/post/devsecops-automation/</guid>
+      <guid>https://m0d4s.me/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
       

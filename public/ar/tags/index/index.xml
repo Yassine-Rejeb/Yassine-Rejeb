@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Website of Mohamed Yassine Rejeb</title>
-    <link>/ar/tags/index/</link>
+    <link>https://m0d4s.me/ar/tags/index/</link>
     <description>Recent content in index on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/ar/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://m0d4s.me/ar/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>/ar/arabic/post/</link>
+      <link>https://m0d4s.me/ar/arabic/post/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ar/arabic/post/</guid>
+      <guid>https://m0d4s.me/ar/arabic/post/</guid>
       
         <description></description>
       
@@ -19,10 +19,10 @@
     
     <item>
       <title>Posts</title>
-      <link>/ar/english/post/</link>
+      <link>https://m0d4s.me/ar/english/post/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>/ar/english/post/</guid>
+      <guid>https://m0d4s.me/ar/english/post/</guid>
       
         <description></description>
       

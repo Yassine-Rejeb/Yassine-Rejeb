@@ -23,11 +23,11 @@ You can verify it here: https://rhtapps.redhat.com/verify?certId=220-054-621
 I have passed the eJPT exam on December 15th 2022.
 
 I did not create notes for this certification as it is more practical than theoretical, so as preparation I did the following:
-- I have already a good understanding of netwarking and linux, so I did not need to study for that.
+- I have already a good understanding of networking and linux, so I did not need to study for that.
 - I created an account on HackTheBox and did the free tier machines.
 - I did all the easy machines on HackTheBox at the time.
 
-# CKA (Certified Kubernetes Administrator)
+<!-- # CKA (Certified Kubernetes Administrator)
 I am currently preparing for the CKA exam, I will update this page once I pass it.
 
-Here is the notes that I am creating for this certification (Not Finished Yet): [cka_notes](/post/cka_notes/)
+Here is the notes that I am creating for this certification (Not Finished Yet): [cka_notes](/post/cka_notes/) -->
