@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>https-termination on M0D4S&#39;s blog</title>
-    <link>https://m0d4s.me/tags/https-termination/</link>
+    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/tags/https-termination/</link>
     <description>Recent content in https-termination on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://m0d4s.me/tags/https-termination/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/tags/https-termination/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securing a Highly Available Web Application with modsecurity WAF</title>
-      <link>https://m0d4s.me/post/waf_4_ha/</link>
+      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://m0d4s.me/post/waf_4_ha/</guid>
+      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</guid>
       
         <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
-      <link>https://m0d4s.me/post/traefik_lb/</link>
+      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/traefik_lb/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://m0d4s.me/post/traefik_lb/</guid>
+      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/traefik_lb/</guid>
       
         <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
       
