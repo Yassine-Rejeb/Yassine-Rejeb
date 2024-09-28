@@ -17,6 +17,7 @@ enableRobotsTXT = true
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"
+googleAnalytics = ""
 
 # Syntax highlighting
 pygmentsUseClasses = true
