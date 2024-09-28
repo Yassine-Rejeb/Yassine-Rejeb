@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Website of Mohamed Yassine Rejeb</title>
-    <link>https://m0d4s.me/ar/tags/</link>
+    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/tags/</link>
     <description>Recent content in Tags on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ar</language><atom:link href="https://m0d4s.me/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ar</language><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/ar/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

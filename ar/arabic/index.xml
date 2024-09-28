@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website of Mohamed Yassine Rejeb</title>
-    <link>/ar/arabic/</link>
+    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/</link>
     <description>Recent content on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="/ar/arabic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/ar/arabic/archives/</link>
+      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ar/arabic/archives/</guid>
+      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/archives/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>للتواصل</title>
-      <link>/ar/arabic/contact/</link>
+      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ar/arabic/contact/</guid>
+      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>حول</title>
-      <link>/ar/arabic/about/</link>
+      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ar/arabic/about/</guid>
+      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/arabic/about/</guid>
       
         <description>Hugo, the world&#39;s fastest framework for building websites</description>
       

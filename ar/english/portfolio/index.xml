@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Website of Mohamed Yassine Rejeb</title>
-    <link>/ar/english/portfolio/</link>
+    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/english/portfolio/</link>
     <description>Recent content in Portfolio on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/ar/english/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/ar/english/portfolio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

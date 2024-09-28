@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://m0d4s.me/ar/categories/</loc>
+    <loc>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m0d4s.me/categories/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m0d4s.me/ar/categories/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/ar/categories/"
                 />
   </url><url>
-    <loc>https://m0d4s.me/ar/series/</loc>
+    <loc>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m0d4s.me/series/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m0d4s.me/ar/series/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/ar/series/"
                 />
   </url><url>
-    <loc>https://m0d4s.me/ar/tags/</loc>
+    <loc>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m0d4s.me/tags/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m0d4s.me/ar/tags/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/ar/tags/"
                 />
   </url><url>
-    <loc>https://m0d4s.me/ar/</loc>
+    <loc>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m0d4s.me/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m0d4s.me/ar/"
+                href="https://yassine-rejeb.github.io/Yassine-Rejeb/ar/"
                 />
   </url>
 </urlset>
