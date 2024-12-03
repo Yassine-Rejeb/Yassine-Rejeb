@@ -1,4 +1,4 @@
-baseURL = "https://yassine-rejeb.github.io/"
+baseURL = "https://yassine-rejeb.github.io"
 relativeURLs = true
 canonifyURLs = true
 languageCode = "en"

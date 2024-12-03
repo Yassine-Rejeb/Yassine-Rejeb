@@ -1,5 +1,5 @@
 # Legal Disclosure
 
-Information in accordance with the applicable law
+Information in accordance with the applicable law.
 
-2023, Tunisia
+2024, Tunisia

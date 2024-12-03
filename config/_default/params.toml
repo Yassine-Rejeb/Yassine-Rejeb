@@ -2,7 +2,7 @@
 title = "I'm Mohamed Yassine Rejeb"
 author = "Mohamed Yassine Rejeb"
 #copyright = "2022-2023"
-description = "I am Mohamed Yassine Rejeb, a student in the third year of enginnering degree in cybersecurity at TEK-UP University in Tunis. You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more."
+description = "I am Mohamed Yassine Rejeb, a IT enginner secialized in Networks and Systems Cybersecurity. I obtained my engineering degree from TEK-UP University in Tunisia.\n You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more."  
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
