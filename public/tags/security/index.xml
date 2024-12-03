@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>security on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/tags/security/</link>
-    <description>Recent content in security on M0D4S&#39;s blog</description>
+    <title>Security on M0D4S&#39;s blog</title>
+    <link>http://localhost:1313/tags/security/</link>
+    <description>Recent content in Security on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securing a Highly Available Web Application with modsecurity WAF</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</link>
+      <link>http://localhost:1313/english/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</guid>
+      <guid>http://localhost:1313/english/post/waf_4_ha/</guid>
+      
+        <description>Securing a Highly Available Web Application with modsecurity WAF</description>
+      
+    </item>
+    
+    <item>
+      <title>Securing a Highly Available Web Application with modsecurity WAF</title>
+      <link>http://localhost:1313/post/waf_4_ha/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/waf_4_ha/</guid>
       
         <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
@@ -20,10 +31,21 @@
     
     <item>
       <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</link>
+      <link>http://localhost:1313/english/post/devsecops-automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</guid>
+      <guid>http://localhost:1313/english/post/devsecops-automation/</guid>
+      
+        <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
+      
+    </item>
+    
+    <item>
+      <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
+      <link>http://localhost:1313/post/devsecops-automation/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
       

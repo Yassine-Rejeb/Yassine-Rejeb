@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>notes on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/tags/notes/</link>
-    <description>Recent content in notes on M0D4S&#39;s blog</description>
+    <title>Notes on M0D4S&#39;s blog</title>
+    <link>http://localhost:1313/tags/notes/</link>
+    <description>Recent content in Notes on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CKA Exam Notes: Core Concepts</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/cka_notes/</link>
-      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <title>My Notes for preparing for RHCSA Exam</title>
+      <link>http://localhost:1313/english/post/rhcsa_notes/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/cka_notes/</guid>
+      <guid>http://localhost:1313/english/post/rhcsa_notes/</guid>
       
-        <description>My Notes for preparing for CKA Exam</description>
+        <description>My Notes for preparing for RHCSA Exam</description>
       
     </item>
     
     <item>
       <title>My Notes for preparing for RHCSA Exam</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/rhcsa_notes/</link>
+      <link>http://localhost:1313/post/rhcsa_notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/rhcsa_notes/</guid>
+      <guid>http://localhost:1313/post/rhcsa_notes/</guid>
       
         <description>My Notes for preparing for RHCSA Exam</description>
       

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/Yassine-Rejeb/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/Yassine-Rejeb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CKA Exam Notes: Core Concepts</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/cka_notes/</link>
-      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      <title>Securing a Highly Available Web Application with modsecurity WAF</title>
+      <link>http://localhost:1313/english/post/waf_4_ha/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/cka_notes/</guid>
+      <guid>http://localhost:1313/english/post/waf_4_ha/</guid>
       
-        <description>My Notes for preparing for CKA Exam</description>
+        <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
     </item>
     
     <item>
       <title>Securing a Highly Available Web Application with modsecurity WAF</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</link>
+      <link>http://localhost:1313/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/waf_4_ha/</guid>
+      <guid>http://localhost:1313/post/waf_4_ha/</guid>
       
         <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
@@ -31,10 +31,21 @@
     
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/traefik_lb/</link>
+      <link>http://localhost:1313/english/post/traefik_lb/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/traefik_lb/</guid>
+      <guid>http://localhost:1313/english/post/traefik_lb/</guid>
+      
+        <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
+      
+    </item>
+    
+    <item>
+      <title>Load Balancing with Traefik and Docker Swarm</title>
+      <link>http://localhost:1313/post/traefik_lb/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/traefik_lb/</guid>
       
         <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
       
@@ -42,10 +53,21 @@
     
     <item>
       <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</link>
+      <link>http://localhost:1313/english/post/devsecops-automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/devsecops-automation/</guid>
+      <guid>http://localhost:1313/english/post/devsecops-automation/</guid>
+      
+        <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
+      
+    </item>
+    
+    <item>
+      <title>Automating the implementation of a DevSecOps Environment and pipeline</title>
+      <link>http://localhost:1313/post/devsecops-automation/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/devsecops-automation/</guid>
       
         <description>Automating the creation of an environment and pipeline for DevSecOps in a private cloud</description>
       
@@ -53,10 +75,21 @@
     
     <item>
       <title>My Notes for preparing for RHCSA Exam</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/rhcsa_notes/</link>
+      <link>http://localhost:1313/english/post/rhcsa_notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/rhcsa_notes/</guid>
+      <guid>http://localhost:1313/english/post/rhcsa_notes/</guid>
+      
+        <description>My Notes for preparing for RHCSA Exam</description>
+      
+    </item>
+    
+    <item>
+      <title>My Notes for preparing for RHCSA Exam</title>
+      <link>http://localhost:1313/post/rhcsa_notes/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/rhcsa_notes/</guid>
       
         <description>My Notes for preparing for RHCSA Exam</description>
       
@@ -64,10 +97,21 @@
     
     <item>
       <title></title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/archives/</link>
+      <link>http://localhost:1313/archives/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/archives/</guid>
+      <guid>http://localhost:1313/archives/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/english/archives/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/english/archives/</guid>
       
         <description></description>
       
@@ -75,10 +119,21 @@
     
     <item>
       <title>About Me</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>Hugo, the world&#39;s fastest framework for building websites</description>
+      
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/english/about/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/english/about/</guid>
       
         <description>Hugo, the world&#39;s fastest framework for building websites</description>
       
@@ -86,10 +141,21 @@
     
     <item>
       <title>Awards</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/awards/</link>
+      <link>http://localhost:1313/awards/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/awards/</guid>
+      <guid>http://localhost:1313/awards/</guid>
+      
+        <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
+      
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>http://localhost:1313/english/awards/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/english/awards/</guid>
       
         <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
       
@@ -97,10 +163,21 @@
     
     <item>
       <title>Certifications</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/certifications/</link>
+      <link>http://localhost:1313/certifications/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/certifications/</guid>
+      <guid>http://localhost:1313/certifications/</guid>
+      
+        <description>Yass Certifications</description>
+      
+    </item>
+    
+    <item>
+      <title>Certifications</title>
+      <link>http://localhost:1313/english/certifications/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/english/certifications/</guid>
       
         <description>Yass Certifications</description>
       
@@ -108,10 +185,21 @@
     
     <item>
       <title>Contact</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
+      
+        <description>Contact Page</description>
+      
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/english/contact/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/english/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -119,10 +207,21 @@
     
     <item>
       <title>whoami</title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/post/whoami/</link>
+      <link>http://localhost:1313/english/post/whoami/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/post/whoami/</guid>
+      <guid>http://localhost:1313/english/post/whoami/</guid>
+      
+        <description>Getting to know each other</description>
+      
+    </item>
+    
+    <item>
+      <title>whoami</title>
+      <link>http://localhost:1313/post/whoami/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/whoami/</guid>
       
         <description>Getting to know each other</description>
       
@@ -130,13 +229,71 @@
     
     <item>
       <title></title>
-      <link>https://yassine-rejeb.github.io/Yassine-Rejeb/imprint/</link>
+      <link>http://localhost:1313/arabic/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/arabic/archives/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>للتواصل</title>
+      <link>http://localhost:1313/arabic/contact/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/arabic/contact/</guid>
+      
+        <description>Contact Page</description>
+      
+    </item>
+    
+    <item>
+      <title>نموذج عربي</title>
+      <link>http://localhost:1313/arabic/post/arabic_example/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/arabic/post/arabic_example/</guid>
+      
+        <description>نص عربي سريع</description>
+      
+    </item>
+    
+    <item>
+      <title>حول</title>
+      <link>http://localhost:1313/arabic/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/arabic/about/</guid>
+      
+        <description>Hugo, the world&#39;s fastest framework for building websites</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/english/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/Yassine-Rejeb/imprint/</guid>
+      <guid>http://localhost:1313/english/imprint/</guid>
       
-        <description>Legal Disclosure Information in accordance with the applicable law
-2023, Tunisia</description>
+        <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
+&lt;p&gt;Information in accordance with the applicable law.&lt;/p&gt;
+&lt;p&gt;2024, Tunisia&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/imprint/</guid>
+      
+        <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
+&lt;p&gt;Information in accordance with the applicable law.&lt;/p&gt;
+&lt;p&gt;2024, Tunisia&lt;/p&gt;</description>
       
     </item>
     

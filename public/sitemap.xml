@@ -2,16 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://yassine-rejeb.github.io/Yassine-Rejeb/ar/sitemap.xml</loc>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
     
-      <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+      <lastmod>2023-11-17T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://yassine-rejeb.github.io/Yassine-Rejeb/en/sitemap.xml</loc>
-    
-      <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/ar/sitemap.xml</loc>
     
   </sitemap>
   
