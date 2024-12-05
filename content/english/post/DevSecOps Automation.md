@@ -7,7 +7,6 @@ tags = ["devsecops", "automation", "terraform", "ansible", "jenkins", "sonarqube
 +++
 
 ## Architecture of the solution ..
-<!-- Import an image of the architecture -->
 ![Traefik Load Blancer with docker swarm](/images/portfolio/SecOps.png)
 
 <p>
