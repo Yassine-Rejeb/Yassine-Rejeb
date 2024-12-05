@@ -28,8 +28,8 @@
     
     <link
       rel="stylesheet"
-      href="../../scss/main.min.46c41f96ed317ea07643dd2b32ee514ee08650cffb4e53f6b73eab182689e060.css"
-      integrity="sha256-RsQflu0xfqB2Q90rMu5RTuCGUM/7TlP2tz6rGCaJ4GA="
+      href="../../scss/main.min.36e63eb49af2135800503b39e57c04f7591d43220e36bfc7684a5715ec00518a.css"
+      integrity="sha256-NuY&#43;tJryE1gAUDs55XwE91kdQyIONr/HaEpXFewAUYo="
       crossorigin="anonymous"
       type="text/css"
     />
@@ -203,7 +203,7 @@
 
     ,
         "url" : "https:\/\/yassine-rejeb.github.io\/post\/graduation-project-pt1\/",
-        "wordCount" : "723",
+        "wordCount" : "978",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -344,7 +344,7 @@
         </div>
       
       <div class="sidebar__introduction-description">
-        <p>I am Mohamed Yassine Rejeb, a IT enginner secialized in Networks and Systems Cybersecurity. I obtained my engineering degree from TEK-UP University in Tunisia.<br /> You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create and a lot more.</p>
+        <p>I am Mohamed Yassine Rejeb, an IT engineer specialized in Networks and Systems Cybersecurity. I obtained my engineering degree from TEK-UP University in Tunisia.<br /> You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create.</p>
       </div>
     </div>
     <ul class="sidebar__list">
@@ -550,10 +550,10 @@
           </li>
           <li class="post__meta-item">
             <em class="fas fa-stopwatch post__meta-icon"></em>
-            <span class="post__meta-text">4-minute read</span>
+            <span class="post__meta-text">5-minute read</span>
           </li>
         </ul>
-      <h2 id="project-introduction--development-phase">Project Introduction &amp; Development Phase</h2>
+      <h2 id="project-introduction">Project Introduction</h2>
 <h3 id="introduction">Introduction</h3>
 <p>Chaos Engineering is rapidly becoming a cornerstone in enhancing software reliability. In this blog post, I’ll introduce the <strong>engineering deg graduation internship project</strong> I worked on, which revolved around developing a <strong>file and secret sharing web application</strong> for the purpose of exloring Chaos Engineering principles to improve system resilience. The journey included <strong>web development</strong>, <strong>containerization</strong>, <strong>Deployment on K8S with monitoring (Test/Dev cluster &amp; AKS)</strong> and finally experimenting with <strong>Chaos Enginering</strong>.<br>
 The project is published on my <a href="https://github.com/Yassine-Rejeb/fssp">GitHub</a>.</p>
@@ -623,49 +623,127 @@ tings or update personal information after logging in.</li>
   </thead>
   <tbody>
       <tr>
-          <td><strong>Release 1</strong></td>
-          <td><strong>Sprint 1</strong></td>
+          <td><strong>Release-1</strong></td>
+          <td><strong>Sprint-1</strong></td>
           <td>Development of the User Management feature.</td>
       </tr>
       <tr>
           <td></td>
-          <td><strong>Sprint 2</strong></td>
+          <td><strong>Sprint-2</strong></td>
           <td>Development of the Secret Management feature.</td>
       </tr>
       <tr>
           <td></td>
-          <td><strong>Sprint 3</strong></td>
+          <td><strong>Sprint-3</strong></td>
           <td>Containerization of the application so far.</td>
       </tr>
       <tr>
-          <td><strong>Release 2</strong></td>
-          <td><strong>Sprint 1</strong></td>
+          <td><strong>Release-2</strong></td>
+          <td><strong>Sprint-4</strong></td>
           <td>Setup of a test Kubernetes cluster and deployment of containerized services.</td>
       </tr>
       <tr>
           <td></td>
-          <td><strong>Sprint 2</strong></td>
+          <td><strong>Sprint-5</strong></td>
           <td>Development of the File Management feature, requiring a running Kubernetes cluster. Feature containerized and deployed on the test cluster.</td>
       </tr>
       <tr>
           <td></td>
-          <td><strong>Sprint 3</strong></td>
+          <td><strong>Sprint-6</strong></td>
           <td>Setup of monitoring tools (Prometheus, Grafana) using Istio for service mesh capabilities.</td>
       </tr>
       <tr>
-          <td><strong>Release 3</strong></td>
-          <td><strong>Sprint 1</strong></td>
+          <td><strong>Release-3</strong></td>
+          <td><strong>Sprint-7</strong></td>
           <td>Setup of Azure Kubernetes Service (AKS) and managed Istio. Managed Prometheus and Grafana were integrated for monitoring. Azure Key Vault was implemented and deployment of all created manifests in AKS.</td>
       </tr>
       <tr>
           <td></td>
-          <td><strong>Sprint 2</strong></td>
+          <td><strong>Sprint-8</strong></td>
           <td>Setup of a chaos engineering environment to test the resilience of the system, with experiments conducted to identify and address system weaknesses.</td>
       </tr>
   </tbody>
 </table>
+<!-- ### What’s Next?
+With the development phase complete, the next step involved **containerizing the application** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail! -->
+<hr>
+<h2 id="development-of-the-features-user-management--secret-management">Development of the Features User Management &amp; Secret Management</h2>
+<h3 id="user-management">User Management</h3>
+<p>The User Management feature encompasses the creation, verification ad update of the user accounts. The feature is implemented using a <strong>Django RESTful Framework</strong> and <strong>VueJs</strong> (Vuetify 3) for the frontend.</p>
+<h4 id="user-management-frontend">User Management Frontend</h4>
+<!-- usr_mngmnt_ui -->
+<p><img alt="User Managements UIs" src="../../images/portfolio/fssp/usr_mngmnt_ui.png"></p>
+<h4 id="user-management-backend">User Management Backend</h4>
+<p>The following table documents the endpoints of the back-end API.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Endpoint</th>
+          <th>Method</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>/api/register</td>
+          <td>POST</td>
+          <td>Sends client specific data for the creation of a new user. Invokes other back-end functions such as hashing the password, sending a verification Email.</td>
+      </tr>
+      <tr>
+          <td>/api/login</td>
+          <td>POST</td>
+          <td>Sends client specific data for the login of an existing user. Invokes other back-end functions such as hashing the password, sending a verification Email.</td>
+      </tr>
+      <tr>
+          <td>/api/verifyEmail/<uidb64>/<token></td>
+          <td>GET</td>
+          <td>Accessing this endpoint, given that the uidb64 and the token are correct, will change the attribute &ldquo;verified&rdquo; of the data model &ldquo;userAccount&rdquo; to True.</td>
+      </tr>
+      <tr>
+          <td>/api/get_notifications</td>
+          <td>GET</td>
+          <td>Fetches the notifications relevant to the currently logged in user.</td>
+      </tr>
+      <tr>
+          <td>/api/mark_notification_as_viewed</td>
+          <td>GET</td>
+          <td>Marks the notification as viewed removing it from the list of notifications.</td>
+      </tr>
+      <tr>
+          <td>/api/get_user_details</td>
+          <td>GET</td>
+          <td>Fetches the details of the currently logged in user.</td>
+      </tr>
+      <tr>
+          <td>/api/get_profile_pic</td>
+          <td>GET</td>
+          <td>Fetches the profile picture of the currently logged in user.</td>
+      </tr>
+      <tr>
+          <td>/api/change_password</td>
+          <td>POST</td>
+          <td>Changes the password of the currently logged in user.</td>
+      </tr>
+      <tr>
+          <td>/api/change_profile_pic</td>
+          <td>POST</td>
+          <td>Changes the profile picture of the currently logged in user.</td>
+      </tr>
+      <tr>
+          <td>/api/edit_session_timer</td>
+          <td>POST</td>
+          <td>Changes the session timer of the currently logged in user.</td>
+      </tr>
+      <tr>
+          <td>/api/logout</td>
+          <td>POST</td>
+          <td>Logs out the currently logged in user.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>PS:</strong> Browsers don&rsquo;t seem to know that the frontend and backend are on the same domain, so you will need to add the domain of the frontend to the CORS_Allowed_Origins in the Django RESTful API settings.</p>
 <h3 id="whats-next">What’s Next?</h3>
-<p>With the development phase complete, the next step involved <strong>containerizing the application</strong> and deploying it to a <strong>test Kubernetes cluster</strong>. Stay tuned for the next post, where I’ll discuss this phase in detail!</p>
+<p>With the development phase of these two features compete, the next step involved <strong>containerization</strong> and deploying it to a <strong>test Kubernetes cluster</strong>. Stay tuned for the next post, where I’ll discuss this phase in detail.</p>
 </div>
     <div class="post__footer">
       
