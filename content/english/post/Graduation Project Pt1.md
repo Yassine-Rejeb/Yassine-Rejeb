@@ -1,6 +1,6 @@
 +++
 author = "M0D4S"
-title = "Project Introduction & Development Phase"
+title = "Chaos Engineering Exploration: Developping a resilient web application for file and secret sharing."
 date = "2024-04-28"
 description = "Introducing the project and its phases and discussing the first phase"
 tags = [
@@ -22,15 +22,15 @@ tags = [
     "SystemResilience"
 ]
 +++
-# Project Introduction & Development Phase
+## Project Introduction & Development Phase
 
-## Introduction
+### Introduction
 Chaos Engineering is rapidly becoming a cornerstone in enhancing software reliability. In this blog post, I’ll introduce the **engineering deg graduation internship project** I worked on, which revolved around developing a **file and secret sharing web application** for the purpose of exloring Chaos Engineering principles to improve system resilience. The journey included **web development**, **containerization**, **Deployment on K8S with monitoring (Test/Dev cluster & AKS)** and finally experimenting with **Chaos Enginering**.  
 The project is published on my [GitHub](https://github.com/Yassine-Rejeb/fssp).
 
 ---
 
-## Why This Project?
+### Why This Project?
 Modern software systems are increasingly more distributed and more cloud based and with that comes inherent complexity (This was researched as early as 1986 by Frederick P. Brook Jr. in his research paper **No silver bullet - essence and accidents of software engineering**). 
 Traditional methods like **manual testing** or **reactive troubleshooting** often fall short in identifying mishaps of software engineering. Chaos engineering emerged to solve that by relying on chaos theory. 
 This project aimed to: 
@@ -39,7 +39,7 @@ This project aimed to:
 
 ---
 
-## Project Scope and Objectives
+### Project Scope and Objectives
 The project was structured to achieve the following objectives:
 1. **Develop a secure web application** with robust user management, file, and secret sharing features.
 2. **Containerize the application** to ensure portability and consistency.
@@ -48,9 +48,9 @@ The project was structured to achieve the following objectives:
 
 ---
 
-## Project Planning
+### Project Planning
 
-### Global Use Case Diagram
+#### Global Use Case Diagram
 As a starting point, we need to have an idea about the use cases of our application, so here is the general use case diagram:
 ![General Use Case Diagram of the Web App](/images/portfolio/fssp/global_uc.png)
 
@@ -84,7 +84,7 @@ file-related actions (e.g., uploading, downloading, or sharing files).
 tings or update personal information after logging in.
 
 
-### Project Management Approach
+#### Project Management Approach
 The whole project was carried out in **agile sprints** using the Scrum methodology. Below is an overview of the key releases/sprints:
 
 | **Release**   | **Sprint**    | **Details**                                                                                                            |
@@ -99,6 +99,6 @@ The whole project was carried out in **agile sprints** using the Scrum methodolo
 |               | **Sprint 2**  | Setup of a chaos engineering environment to test the resilience of the system, with experiments conducted to identify and address system weaknesses. |
 
 
-## What’s Next?
+### What’s Next?
 With the development phase complete, the next step involved **containerizing the application** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail!
 
