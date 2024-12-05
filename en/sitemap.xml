@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yassine-rejeb.github.io/english/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yassine-rejeb.github.io/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -18,6 +18,82 @@
                 href="https://yassine-rejeb.github.io/"
                 />
   </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/agiledevelopment/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/chaosengineering/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/cloudcomputing/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/devops/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/djangoframework/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/filesharingapp/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/fullstackdevelopment/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/index/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/internshipproject/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/english/post/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/post/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/english/post/graduation-project-pt1/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/post/graduation-project-pt1/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/scrummethodology/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/secretmanagement/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/softwarearchitecture/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/softwareengineering/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/softwarereliability/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/systemresilience/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://yassine-rejeb.github.io/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yassine-rejeb.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/vuejs/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yassine-rejeb.github.io/tags/webdevelopment/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yassine-rejeb.github.io/tags/cloud-native/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -28,9 +104,6 @@
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yassine-rejeb.github.io/tags/https-termination/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yassine-rejeb.github.io/tags/index/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yassine-rejeb.github.io/tags/load-balancing/</loc>
@@ -45,12 +118,6 @@
     <loc>https://yassine-rejeb.github.io/tags/owasp-modsecurity-crs/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yassine-rejeb.github.io/english/post/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yassine-rejeb.github.io/post/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yassine-rejeb.github.io/tags/reverse-proxy/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -62,19 +129,6 @@
   </url><url>
     <loc>https://yassine-rejeb.github.io/tags/security/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yassine-rejeb.github.io/tags/</loc>
-    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yassine-rejeb.github.io/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yassine-rejeb.github.io/tags/"
-                />
   </url><url>
     <loc>https://yassine-rejeb.github.io/tags/traefik/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
@@ -116,9 +170,6 @@
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yassine-rejeb.github.io/tags/dast/</loc>
-    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yassine-rejeb.github.io/tags/devops/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yassine-rejeb.github.io/tags/devsecops/</loc>
