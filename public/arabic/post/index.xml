@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/arabic/post/</link>
+    <link>http://localhost:1313/arabic/post/</link>
     <description>Recent content in Posts on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/arabic/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/arabic/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>نموذج عربي</title>
-      <link>https://yassine-rejeb.github.io/arabic/post/arabic_example/</link>
+      <link>http://localhost:1313/arabic/post/arabic_example/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/arabic/post/arabic_example/</guid>
+      <guid>http://localhost:1313/arabic/post/arabic_example/</guid>
       
         <description>نص عربي سريع</description>
       

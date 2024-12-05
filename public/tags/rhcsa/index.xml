@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rhcsa on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/tags/rhcsa/</link>
+    <link>http://localhost:1313/tags/rhcsa/</link>
     <description>Recent content in Rhcsa on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/tags/rhcsa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/rhcsa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Notes for preparing for RHCSA Exam</title>
-      <link>https://yassine-rejeb.github.io/english/post/rhcsa_notes/</link>
+      <link>http://localhost:1313/english/post/rhcsa_notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/english/post/rhcsa_notes/</guid>
+      <guid>http://localhost:1313/english/post/rhcsa_notes/</guid>
       
         <description>My Notes for preparing for RHCSA Exam</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>My Notes for preparing for RHCSA Exam</title>
-      <link>https://yassine-rejeb.github.io/post/rhcsa_notes/</link>
+      <link>http://localhost:1313/post/rhcsa_notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/post/rhcsa_notes/</guid>
+      <guid>http://localhost:1313/post/rhcsa_notes/</guid>
       
         <description>My Notes for preparing for RHCSA Exam</description>
       

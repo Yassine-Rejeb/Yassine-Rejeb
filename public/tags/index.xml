@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AgileDevelopment</title>
-      <link>https://yassine-rejeb.github.io/tags/agiledevelopment/</link>
+      <link>http://localhost:1313/tags/agiledevelopment/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/agiledevelopment/</guid>
+      <guid>http://localhost:1313/tags/agiledevelopment/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>ChaosEngineering</title>
-      <link>https://yassine-rejeb.github.io/tags/chaosengineering/</link>
+      <link>http://localhost:1313/tags/chaosengineering/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/chaosengineering/</guid>
+      <guid>http://localhost:1313/tags/chaosengineering/</guid>
       
         <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>CloudComputing</title>
-      <link>https://yassine-rejeb.github.io/tags/cloudcomputing/</link>
+      <link>http://localhost:1313/tags/cloudcomputing/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/cloudcomputing/</guid>
+      <guid>http://localhost:1313/tags/cloudcomputing/</guid>
       
         <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>DevOps</title>
-      <link>https://yassine-rejeb.github.io/tags/devops/</link>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       
         <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>DjangoFramework</title>
-      <link>https://yassine-rejeb.github.io/tags/djangoframework/</link>
+      <link>http://localhost:1313/tags/djangoframework/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/djangoframework/</guid>
+      <guid>http://localhost:1313/tags/djangoframework/</guid>
       
         <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>FileSharingApp</title>
-      <link>https://yassine-rejeb.github.io/tags/filesharingapp/</link>
+      <link>http://localhost:1313/tags/filesharingapp/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/filesharingapp/</guid>
+      <guid>http://localhost:1313/tags/filesharingapp/</guid>
       
         <description></description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>FullStackDevelopment</title>
-      <link>https://yassine-rejeb.github.io/tags/fullstackdevelopment/</link>
+      <link>http://localhost:1313/tags/fullstackdevelopment/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/fullstackdevelopment/</guid>
+      <guid>http://localhost:1313/tags/fullstackdevelopment/</guid>
       
         <description></description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title>Index</title>
-      <link>https://yassine-rejeb.github.io/tags/index/</link>
+      <link>http://localhost:1313/tags/index/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/index/</guid>
+      <guid>http://localhost:1313/tags/index/</guid>
       
         <description></description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>InternshipProject</title>
-      <link>https://yassine-rejeb.github.io/tags/internshipproject/</link>
+      <link>http://localhost:1313/tags/internshipproject/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/internshipproject/</guid>
+      <guid>http://localhost:1313/tags/internshipproject/</guid>
       
         <description></description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>ScrumMethodology</title>
-      <link>https://yassine-rejeb.github.io/tags/scrummethodology/</link>
+      <link>http://localhost:1313/tags/scrummethodology/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/scrummethodology/</guid>
+      <guid>http://localhost:1313/tags/scrummethodology/</guid>
       
         <description></description>
       
@@ -119,10 +119,10 @@
     
     <item>
       <title>SecretManagement</title>
-      <link>https://yassine-rejeb.github.io/tags/secretmanagement/</link>
+      <link>http://localhost:1313/tags/secretmanagement/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/secretmanagement/</guid>
+      <guid>http://localhost:1313/tags/secretmanagement/</guid>
       
         <description></description>
       
@@ -130,10 +130,10 @@
     
     <item>
       <title>SoftwareArchitecture</title>
-      <link>https://yassine-rejeb.github.io/tags/softwarearchitecture/</link>
+      <link>http://localhost:1313/tags/softwarearchitecture/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/softwarearchitecture/</guid>
+      <guid>http://localhost:1313/tags/softwarearchitecture/</guid>
       
         <description></description>
       
@@ -141,10 +141,10 @@
     
     <item>
       <title>SoftwareEngineering</title>
-      <link>https://yassine-rejeb.github.io/tags/softwareengineering/</link>
+      <link>http://localhost:1313/tags/softwareengineering/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/softwareengineering/</guid>
+      <guid>http://localhost:1313/tags/softwareengineering/</guid>
       
         <description></description>
       
@@ -152,10 +152,10 @@
     
     <item>
       <title>SoftwareReliability</title>
-      <link>https://yassine-rejeb.github.io/tags/softwarereliability/</link>
+      <link>http://localhost:1313/tags/softwarereliability/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/softwarereliability/</guid>
+      <guid>http://localhost:1313/tags/softwarereliability/</guid>
       
         <description></description>
       
@@ -163,10 +163,10 @@
     
     <item>
       <title>SystemResilience</title>
-      <link>https://yassine-rejeb.github.io/tags/systemresilience/</link>
+      <link>http://localhost:1313/tags/systemresilience/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/systemresilience/</guid>
+      <guid>http://localhost:1313/tags/systemresilience/</guid>
       
         <description></description>
       
@@ -174,10 +174,10 @@
     
     <item>
       <title>VueJS</title>
-      <link>https://yassine-rejeb.github.io/tags/vuejs/</link>
+      <link>http://localhost:1313/tags/vuejs/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/vuejs/</guid>
+      <guid>http://localhost:1313/tags/vuejs/</guid>
       
         <description></description>
       
@@ -185,10 +185,10 @@
     
     <item>
       <title>WebDevelopment</title>
-      <link>https://yassine-rejeb.github.io/tags/webdevelopment/</link>
+      <link>http://localhost:1313/tags/webdevelopment/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/webdevelopment/</guid>
+      <guid>http://localhost:1313/tags/webdevelopment/</guid>
       
         <description></description>
       
@@ -196,10 +196,10 @@
     
     <item>
       <title>Cloud Native</title>
-      <link>https://yassine-rejeb.github.io/tags/cloud-native/</link>
+      <link>http://localhost:1313/tags/cloud-native/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/cloud-native/</guid>
+      <guid>http://localhost:1313/tags/cloud-native/</guid>
       
         <description></description>
       
@@ -207,10 +207,10 @@
     
     <item>
       <title>Docker</title>
-      <link>https://yassine-rejeb.github.io/tags/docker/</link>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       
         <description></description>
       
@@ -218,10 +218,10 @@
     
     <item>
       <title>Docker-Compose</title>
-      <link>https://yassine-rejeb.github.io/tags/docker-compose/</link>
+      <link>http://localhost:1313/tags/docker-compose/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/docker-compose/</guid>
+      <guid>http://localhost:1313/tags/docker-compose/</guid>
       
         <description></description>
       
@@ -229,10 +229,10 @@
     
     <item>
       <title>Https Termination</title>
-      <link>https://yassine-rejeb.github.io/tags/https-termination/</link>
+      <link>http://localhost:1313/tags/https-termination/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/https-termination/</guid>
+      <guid>http://localhost:1313/tags/https-termination/</guid>
       
         <description></description>
       
@@ -240,10 +240,10 @@
     
     <item>
       <title>Load Balancing</title>
-      <link>https://yassine-rejeb.github.io/tags/load-balancing/</link>
+      <link>http://localhost:1313/tags/load-balancing/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/load-balancing/</guid>
+      <guid>http://localhost:1313/tags/load-balancing/</guid>
       
         <description></description>
       
@@ -251,10 +251,10 @@
     
     <item>
       <title>Modsecurity</title>
-      <link>https://yassine-rejeb.github.io/tags/modsecurity/</link>
+      <link>http://localhost:1313/tags/modsecurity/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/modsecurity/</guid>
+      <guid>http://localhost:1313/tags/modsecurity/</guid>
       
         <description></description>
       
@@ -262,10 +262,10 @@
     
     <item>
       <title>Owasp</title>
-      <link>https://yassine-rejeb.github.io/tags/owasp/</link>
+      <link>http://localhost:1313/tags/owasp/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/owasp/</guid>
+      <guid>http://localhost:1313/tags/owasp/</guid>
       
         <description></description>
       
@@ -273,10 +273,10 @@
     
     <item>
       <title>Owasp Modsecurity Crs</title>
-      <link>https://yassine-rejeb.github.io/tags/owasp-modsecurity-crs/</link>
+      <link>http://localhost:1313/tags/owasp-modsecurity-crs/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/owasp-modsecurity-crs/</guid>
+      <guid>http://localhost:1313/tags/owasp-modsecurity-crs/</guid>
       
         <description></description>
       
@@ -284,10 +284,10 @@
     
     <item>
       <title>Reverse Proxy</title>
-      <link>https://yassine-rejeb.github.io/tags/reverse-proxy/</link>
+      <link>http://localhost:1313/tags/reverse-proxy/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/reverse-proxy/</guid>
+      <guid>http://localhost:1313/tags/reverse-proxy/</guid>
       
         <description></description>
       
@@ -295,10 +295,10 @@
     
     <item>
       <title>Security</title>
-      <link>https://yassine-rejeb.github.io/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       
         <description></description>
       
@@ -306,10 +306,10 @@
     
     <item>
       <title>Traefik</title>
-      <link>https://yassine-rejeb.github.io/tags/traefik/</link>
+      <link>http://localhost:1313/tags/traefik/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/traefik/</guid>
+      <guid>http://localhost:1313/tags/traefik/</guid>
       
         <description></description>
       
@@ -317,10 +317,10 @@
     
     <item>
       <title>Waf</title>
-      <link>https://yassine-rejeb.github.io/tags/waf/</link>
+      <link>http://localhost:1313/tags/waf/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/waf/</guid>
+      <guid>http://localhost:1313/tags/waf/</guid>
       
         <description></description>
       
@@ -328,10 +328,10 @@
     
     <item>
       <title>Web Application Firewall</title>
-      <link>https://yassine-rejeb.github.io/tags/web-application-firewall/</link>
+      <link>http://localhost:1313/tags/web-application-firewall/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/web-application-firewall/</guid>
+      <guid>http://localhost:1313/tags/web-application-firewall/</guid>
       
         <description></description>
       
@@ -339,10 +339,10 @@
     
     <item>
       <title>Docker-Swarm</title>
-      <link>https://yassine-rejeb.github.io/tags/docker-swarm/</link>
+      <link>http://localhost:1313/tags/docker-swarm/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/docker-swarm/</guid>
+      <guid>http://localhost:1313/tags/docker-swarm/</guid>
       
         <description></description>
       
@@ -350,10 +350,10 @@
     
     <item>
       <title>Ansible</title>
-      <link>https://yassine-rejeb.github.io/tags/ansible/</link>
+      <link>http://localhost:1313/tags/ansible/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/ansible/</guid>
+      <guid>http://localhost:1313/tags/ansible/</guid>
       
         <description></description>
       
@@ -361,10 +361,10 @@
     
     <item>
       <title>Automation</title>
-      <link>https://yassine-rejeb.github.io/tags/automation/</link>
+      <link>http://localhost:1313/tags/automation/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/automation/</guid>
+      <guid>http://localhost:1313/tags/automation/</guid>
       
         <description></description>
       
@@ -372,10 +372,10 @@
     
     <item>
       <title>Ci/Cd</title>
-      <link>https://yassine-rejeb.github.io/tags/ci/cd/</link>
+      <link>http://localhost:1313/tags/ci/cd/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/ci/cd/</guid>
+      <guid>http://localhost:1313/tags/ci/cd/</guid>
       
         <description></description>
       
@@ -383,10 +383,10 @@
     
     <item>
       <title>Cloud</title>
-      <link>https://yassine-rejeb.github.io/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       
         <description></description>
       
@@ -394,10 +394,10 @@
     
     <item>
       <title>Compliance</title>
-      <link>https://yassine-rejeb.github.io/tags/compliance/</link>
+      <link>http://localhost:1313/tags/compliance/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/compliance/</guid>
+      <guid>http://localhost:1313/tags/compliance/</guid>
       
         <description></description>
       
@@ -405,10 +405,10 @@
     
     <item>
       <title>Dast</title>
-      <link>https://yassine-rejeb.github.io/tags/dast/</link>
+      <link>http://localhost:1313/tags/dast/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/dast/</guid>
+      <guid>http://localhost:1313/tags/dast/</guid>
       
         <description></description>
       
@@ -416,10 +416,10 @@
     
     <item>
       <title>Devsecops</title>
-      <link>https://yassine-rejeb.github.io/tags/devsecops/</link>
+      <link>http://localhost:1313/tags/devsecops/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/devsecops/</guid>
+      <guid>http://localhost:1313/tags/devsecops/</guid>
       
         <description></description>
       
@@ -427,10 +427,10 @@
     
     <item>
       <title>DevStack</title>
-      <link>https://yassine-rejeb.github.io/tags/devstack/</link>
+      <link>http://localhost:1313/tags/devstack/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/devstack/</guid>
+      <guid>http://localhost:1313/tags/devstack/</guid>
       
         <description></description>
       
@@ -438,10 +438,10 @@
     
     <item>
       <title>Jenkins</title>
-      <link>https://yassine-rejeb.github.io/tags/jenkins/</link>
+      <link>http://localhost:1313/tags/jenkins/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/jenkins/</guid>
+      <guid>http://localhost:1313/tags/jenkins/</guid>
       
         <description></description>
       
@@ -449,10 +449,10 @@
     
     <item>
       <title>Openstack</title>
-      <link>https://yassine-rejeb.github.io/tags/openstack/</link>
+      <link>http://localhost:1313/tags/openstack/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/openstack/</guid>
+      <guid>http://localhost:1313/tags/openstack/</guid>
       
         <description></description>
       
@@ -460,10 +460,10 @@
     
     <item>
       <title>Owasp-Zap</title>
-      <link>https://yassine-rejeb.github.io/tags/owasp-zap/</link>
+      <link>http://localhost:1313/tags/owasp-zap/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/owasp-zap/</guid>
+      <guid>http://localhost:1313/tags/owasp-zap/</guid>
       
         <description></description>
       
@@ -471,10 +471,10 @@
     
     <item>
       <title>Pipeline</title>
-      <link>https://yassine-rejeb.github.io/tags/pipeline/</link>
+      <link>http://localhost:1313/tags/pipeline/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/pipeline/</guid>
+      <guid>http://localhost:1313/tags/pipeline/</guid>
       
         <description></description>
       
@@ -482,10 +482,10 @@
     
     <item>
       <title>Sast</title>
-      <link>https://yassine-rejeb.github.io/tags/sast/</link>
+      <link>http://localhost:1313/tags/sast/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/sast/</guid>
+      <guid>http://localhost:1313/tags/sast/</guid>
       
         <description></description>
       
@@ -493,10 +493,10 @@
     
     <item>
       <title>Sca</title>
-      <link>https://yassine-rejeb.github.io/tags/sca/</link>
+      <link>http://localhost:1313/tags/sca/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/sca/</guid>
+      <guid>http://localhost:1313/tags/sca/</guid>
       
         <description></description>
       
@@ -504,10 +504,10 @@
     
     <item>
       <title>Sonarqube</title>
-      <link>https://yassine-rejeb.github.io/tags/sonarqube/</link>
+      <link>http://localhost:1313/tags/sonarqube/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/sonarqube/</guid>
+      <guid>http://localhost:1313/tags/sonarqube/</guid>
       
         <description></description>
       
@@ -515,10 +515,10 @@
     
     <item>
       <title>Terraform</title>
-      <link>https://yassine-rejeb.github.io/tags/terraform/</link>
+      <link>http://localhost:1313/tags/terraform/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/terraform/</guid>
+      <guid>http://localhost:1313/tags/terraform/</guid>
       
         <description></description>
       
@@ -526,10 +526,10 @@
     
     <item>
       <title>Zap</title>
-      <link>https://yassine-rejeb.github.io/tags/zap/</link>
+      <link>http://localhost:1313/tags/zap/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/zap/</guid>
+      <guid>http://localhost:1313/tags/zap/</guid>
       
         <description></description>
       
@@ -537,10 +537,10 @@
     
     <item>
       <title>Cheat Sheet</title>
-      <link>https://yassine-rejeb.github.io/tags/cheat-sheet/</link>
+      <link>http://localhost:1313/tags/cheat-sheet/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/cheat-sheet/</guid>
+      <guid>http://localhost:1313/tags/cheat-sheet/</guid>
       
         <description></description>
       
@@ -548,10 +548,10 @@
     
     <item>
       <title>Cheat Sheets</title>
-      <link>https://yassine-rejeb.github.io/tags/cheat-sheets/</link>
+      <link>http://localhost:1313/tags/cheat-sheets/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/cheat-sheets/</guid>
+      <guid>http://localhost:1313/tags/cheat-sheets/</guid>
       
         <description></description>
       
@@ -559,10 +559,10 @@
     
     <item>
       <title>Cheatsheet</title>
-      <link>https://yassine-rejeb.github.io/tags/cheatsheet/</link>
+      <link>http://localhost:1313/tags/cheatsheet/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/cheatsheet/</guid>
+      <guid>http://localhost:1313/tags/cheatsheet/</guid>
       
         <description></description>
       
@@ -570,10 +570,10 @@
     
     <item>
       <title>Cheatsheets</title>
-      <link>https://yassine-rejeb.github.io/tags/cheatsheets/</link>
+      <link>http://localhost:1313/tags/cheatsheets/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/cheatsheets/</guid>
+      <guid>http://localhost:1313/tags/cheatsheets/</guid>
       
         <description></description>
       
@@ -581,10 +581,10 @@
     
     <item>
       <title>Linux</title>
-      <link>https://yassine-rejeb.github.io/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       
         <description></description>
       
@@ -592,10 +592,10 @@
     
     <item>
       <title>Notes</title>
-      <link>https://yassine-rejeb.github.io/tags/notes/</link>
+      <link>http://localhost:1313/tags/notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/notes/</guid>
+      <guid>http://localhost:1313/tags/notes/</guid>
       
         <description></description>
       
@@ -603,10 +603,10 @@
     
     <item>
       <title>Redhat</title>
-      <link>https://yassine-rejeb.github.io/tags/redhat/</link>
+      <link>http://localhost:1313/tags/redhat/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/redhat/</guid>
+      <guid>http://localhost:1313/tags/redhat/</guid>
       
         <description></description>
       
@@ -614,10 +614,10 @@
     
     <item>
       <title>Rhcsa</title>
-      <link>https://yassine-rejeb.github.io/tags/rhcsa/</link>
+      <link>http://localhost:1313/tags/rhcsa/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/rhcsa/</guid>
+      <guid>http://localhost:1313/tags/rhcsa/</guid>
       
         <description></description>
       
@@ -625,10 +625,10 @@
     
     <item>
       <title>Rhcsa Cheat Sheet</title>
-      <link>https://yassine-rejeb.github.io/tags/rhcsa-cheat-sheet/</link>
+      <link>http://localhost:1313/tags/rhcsa-cheat-sheet/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/rhcsa-cheat-sheet/</guid>
+      <guid>http://localhost:1313/tags/rhcsa-cheat-sheet/</guid>
       
         <description></description>
       
@@ -636,10 +636,10 @@
     
     <item>
       <title>Rhcsa Cheat Sheets</title>
-      <link>https://yassine-rejeb.github.io/tags/rhcsa-cheat-sheets/</link>
+      <link>http://localhost:1313/tags/rhcsa-cheat-sheets/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/rhcsa-cheat-sheets/</guid>
+      <guid>http://localhost:1313/tags/rhcsa-cheat-sheets/</guid>
       
         <description></description>
       
@@ -647,10 +647,10 @@
     
     <item>
       <title>Rhcsa Cheatsheet</title>
-      <link>https://yassine-rejeb.github.io/tags/rhcsa-cheatsheet/</link>
+      <link>http://localhost:1313/tags/rhcsa-cheatsheet/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/rhcsa-cheatsheet/</guid>
+      <guid>http://localhost:1313/tags/rhcsa-cheatsheet/</guid>
       
         <description></description>
       
@@ -658,10 +658,10 @@
     
     <item>
       <title>Rhcsa Cheatsheets</title>
-      <link>https://yassine-rejeb.github.io/tags/rhcsa-cheatsheets/</link>
+      <link>http://localhost:1313/tags/rhcsa-cheatsheets/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/rhcsa-cheatsheets/</guid>
+      <guid>http://localhost:1313/tags/rhcsa-cheatsheets/</guid>
       
         <description></description>
       
@@ -669,10 +669,10 @@
     
     <item>
       <title>Rhcsa Notes</title>
-      <link>https://yassine-rejeb.github.io/tags/rhcsa-notes/</link>
+      <link>http://localhost:1313/tags/rhcsa-notes/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/rhcsa-notes/</guid>
+      <guid>http://localhost:1313/tags/rhcsa-notes/</guid>
       
         <description></description>
       
@@ -680,10 +680,10 @@
     
     <item>
       <title>Sysadmin</title>
-      <link>https://yassine-rejeb.github.io/tags/sysadmin/</link>
+      <link>http://localhost:1313/tags/sysadmin/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/sysadmin/</guid>
+      <guid>http://localhost:1313/tags/sysadmin/</guid>
       
         <description></description>
       
@@ -691,10 +691,10 @@
     
     <item>
       <title>Goals</title>
-      <link>https://yassine-rejeb.github.io/tags/goals/</link>
+      <link>http://localhost:1313/tags/goals/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/goals/</guid>
+      <guid>http://localhost:1313/tags/goals/</guid>
       
         <description></description>
       
@@ -702,10 +702,10 @@
     
     <item>
       <title>Hobbies</title>
-      <link>https://yassine-rejeb.github.io/tags/hobbies/</link>
+      <link>http://localhost:1313/tags/hobbies/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/hobbies/</guid>
+      <guid>http://localhost:1313/tags/hobbies/</guid>
       
         <description></description>
       
@@ -713,10 +713,10 @@
     
     <item>
       <title>Studies</title>
-      <link>https://yassine-rejeb.github.io/tags/studies/</link>
+      <link>http://localhost:1313/tags/studies/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/studies/</guid>
+      <guid>http://localhost:1313/tags/studies/</guid>
       
         <description></description>
       
@@ -724,10 +724,10 @@
     
     <item>
       <title>What-Am-I-Doing</title>
-      <link>https://yassine-rejeb.github.io/tags/what-am-i-doing/</link>
+      <link>http://localhost:1313/tags/what-am-i-doing/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/what-am-i-doing/</guid>
+      <guid>http://localhost:1313/tags/what-am-i-doing/</guid>
       
         <description></description>
       
@@ -735,10 +735,10 @@
     
     <item>
       <title>Whoami</title>
-      <link>https://yassine-rejeb.github.io/tags/whoami/</link>
+      <link>http://localhost:1313/tags/whoami/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/whoami/</guid>
+      <guid>http://localhost:1313/tags/whoami/</guid>
       
         <description></description>
       
@@ -746,10 +746,10 @@
     
     <item>
       <title>عربي</title>
-      <link>https://yassine-rejeb.github.io/tags/%D8%B9%D8%B1%D8%A8%D9%8A/</link>
+      <link>http://localhost:1313/tags/%D8%B9%D8%B1%D8%A8%D9%8A/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/tags/%D8%B9%D8%B1%D8%A8%D9%8A/</guid>
+      <guid>http://localhost:1313/tags/%D8%B9%D8%B1%D8%A8%D9%8A/</guid>
       
         <description></description>
       

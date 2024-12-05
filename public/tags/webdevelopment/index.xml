@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WebDevelopment on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/tags/webdevelopment/</link>
+    <link>http://localhost:1313/tags/webdevelopment/</link>
     <description>Recent content in WebDevelopment on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/tags/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chaos Engineering Exploration: Developping a resilient web application for file and secret sharing.</title>
-      <link>https://yassine-rejeb.github.io/english/post/graduation-project-pt1/</link>
+      <link>http://localhost:1313/english/post/graduation-project-pt1/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/english/post/graduation-project-pt1/</guid>
+      <guid>http://localhost:1313/english/post/graduation-project-pt1/</guid>
       
         <description>Introducing the project and its phases and discussing the first phase</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Chaos Engineering Exploration: Developping a resilient web application for file and secret sharing.</title>
-      <link>https://yassine-rejeb.github.io/post/graduation-project-pt1/</link>
+      <link>http://localhost:1313/post/graduation-project-pt1/</link>
       <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/post/graduation-project-pt1/</guid>
+      <guid>http://localhost:1313/post/graduation-project-pt1/</guid>
       
         <description>Introducing the project and its phases and discussing the first phase</description>
       

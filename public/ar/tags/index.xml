@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Website of Mohamed Yassine Rejeb</title>
-    <link>https://yassine-rejeb.github.io/ar/tags/</link>
+    <link>http://localhost:1313/ar/tags/</link>
     <description>Recent content in Tags on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ar</language><atom:link href="https://yassine-rejeb.github.io/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ar</language><atom:link href="http://localhost:1313/ar/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

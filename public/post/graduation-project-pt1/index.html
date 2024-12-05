@@ -6,7 +6,7 @@
   
     class="html theme--light"
   
-><head>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <title>
     
       
@@ -28,8 +28,8 @@
     
     <link
       rel="stylesheet"
-      href="../../scss/main.min.36e63eb49af2135800503b39e57c04f7591d43220e36bfc7684a5715ec00518a.css"
-      integrity="sha256-NuY&#43;tJryE1gAUDs55XwE91kdQyIONr/HaEpXFewAUYo="
+      href="../../scss/main.min.30cd6bc501d1a71b7d1c1fd46089872ea3564aca8fd2c529cc1f91516d53627f.css"
+      integrity="sha256-MM1rxQHRpxt9HB/UYImHLqNWSsqP0sUpzB&#43;RUW1TYn8="
       crossorigin="anonymous"
       type="text/css"
     />
@@ -82,7 +82,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../../favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="../../favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://yassine-rejeb.github.io/post/graduation-project-pt1/" />
+  <link rel="canonical" href="http://localhost:1313/post/graduation-project-pt1/" />
 
   
   
@@ -112,14 +112,14 @@
   
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://yassine-rejeb.github.io/images/site-feature-image.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
   <meta name="twitter:title" content="Chaos Engineering Exploration: Developping a resilient web application for file and secret sharing.">
   <meta name="twitter:description" content="Introducing the project and its phases and discussing the first phase">
 
 
 
   
-  <meta property="og:url" content="https://yassine-rejeb.github.io/post/graduation-project-pt1/">
+  <meta property="og:url" content="http://localhost:1313/post/graduation-project-pt1/">
   <meta property="og:site_name" content="M0D4S&#39;s blog">
   <meta property="og:title" content="Chaos Engineering Exploration: Developping a resilient web application for file and secret sharing.">
   <meta property="og:description" content="Introducing the project and its phases and discussing the first phase">
@@ -134,7 +134,7 @@
     <meta property="article:tag" content="InternshipProject">
     <meta property="article:tag" content="CloudComputing">
     <meta property="article:tag" content="FileSharingApp">
-    <meta property="og:image" content="https://yassine-rejeb.github.io/images/site-feature-image.png">
+    <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
 
 
 
@@ -159,7 +159,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/yassine-rejeb.github.io\/post\/graduation-project-pt1\/"
+            "@id": "http:\/\/localhost:1313\/post\/graduation-project-pt1\/"
         },
         "author" : {
             "@type": "Person",
@@ -184,10 +184,10 @@
         "publisher":{
             "@type":"Organization",
             "name": "M0D4S",
-            "url": "https://yassine-rejeb.github.io/",
+            "url": "http://localhost:1313/",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https:\/\/yassine-rejeb.github.io\/favicons\/favicon-32x32.png",
+                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
                 "width":"32",
                 "height":"32"
             }
@@ -195,15 +195,15 @@
         "image": 
       [
         
-        "https://yassine-rejeb.github.io/images/site-feature-image.png"
+        "http://localhost:1313/images/site-feature-image.png"
 
 
       
       ]
 
     ,
-        "url" : "https:\/\/yassine-rejeb.github.io\/post\/graduation-project-pt1\/",
-        "wordCount" : "978",
+        "url" : "http:\/\/localhost:1313\/post\/graduation-project-pt1\/",
+        "wordCount" : "986",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -553,7 +553,7 @@
             <span class="post__meta-text">5-minute read</span>
           </li>
         </ul>
-      <h2 id="project-introduction">Project Introduction</h2>
+      <h2 id="project-presentation">Project Presentation</h2>
 <h3 id="introduction">Introduction</h3>
 <p>Chaos Engineering is rapidly becoming a cornerstone in enhancing software reliability. In this blog post, I’ll introduce the <strong>engineering deg graduation internship project</strong> I worked on, which revolved around developing a <strong>file and secret sharing web application</strong> for the purpose of exloring Chaos Engineering principles to improve system resilience. The journey included <strong>web development</strong>, <strong>containerization</strong>, <strong>Deployment on K8S with monitoring (Test/Dev cluster &amp; AKS)</strong> and finally experimenting with <strong>Chaos Enginering</strong>.<br>
 The project is published on my <a href="https://github.com/Yassine-Rejeb/fssp">GitHub</a>.</p>
@@ -613,55 +613,55 @@ tings or update personal information after logging in.</li>
 </ul>
 <h4 id="project-management-approach">Project Management Approach</h4>
 <p>The whole project was carried out in <strong>agile sprints</strong> using the Scrum methodology. Below is an overview of the key releases/sprints:</p>
-<table>
+<table style="width:100%; border-collapse: collapse;">
   <thead>
-      <tr>
-          <th><strong>Release</strong></th>
-          <th><strong>Sprint</strong></th>
-          <th><strong>Details</strong></th>
-      </tr>
+    <tr style="background-color: #f4f4f4; color: #333;">
+      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Release</th>
+      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Sprint</th>
+      <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Details</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td><strong>Release-1</strong></td>
-          <td><strong>Sprint-1</strong></td>
-          <td>Development of the User Management feature.</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td><strong>Sprint-2</strong></td>
-          <td>Development of the Secret Management feature.</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td><strong>Sprint-3</strong></td>
-          <td>Containerization of the application so far.</td>
-      </tr>
-      <tr>
-          <td><strong>Release-2</strong></td>
-          <td><strong>Sprint-4</strong></td>
-          <td>Setup of a test Kubernetes cluster and deployment of containerized services.</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td><strong>Sprint-5</strong></td>
-          <td>Development of the File Management feature, requiring a running Kubernetes cluster. Feature containerized and deployed on the test cluster.</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td><strong>Sprint-6</strong></td>
-          <td>Setup of monitoring tools (Prometheus, Grafana) using Istio for service mesh capabilities.</td>
-      </tr>
-      <tr>
-          <td><strong>Release-3</strong></td>
-          <td><strong>Sprint-7</strong></td>
-          <td>Setup of Azure Kubernetes Service (AKS) and managed Istio. Managed Prometheus and Grafana were integrated for monitoring. Azure Key Vault was implemented and deployment of all created manifests in AKS.</td>
-      </tr>
-      <tr>
-          <td></td>
-          <td><strong>Sprint-8</strong></td>
-          <td>Setup of a chaos engineering environment to test the resilience of the system, with experiments conducted to identify and address system weaknesses.</td>
-      </tr>
+    <tr style="background-color: #e0f7fa;">
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Release-1</td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-1</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Development of the User Management feature.</td>
+    </tr>
+    <tr style="background-color: #e0f7fa;">
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-2</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Development of the Secret Management feature.</td>
+    </tr>
+    <tr style="background-color: #e0f7fa;">
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-3</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Containerization of the application so far.</td>
+    </tr>
+    <tr style="background-color: #f1f8e9;">
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Release-2</td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-4</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Setup of a test Kubernetes cluster and deployment of containerized services.</td>
+    </tr>
+    <tr style="background-color: #f1f8e9;">
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-5</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Development of the File Management feature, requiring a running Kubernetes cluster. Feature containerized and deployed on the test cluster.</td>
+    </tr>
+    <tr style="background-color: #f1f8e9;">
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-6</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Setup of monitoring tools (Prometheus, Grafana) using Istio for service mesh capabilities.</td>
+    </tr>
+    <tr style="background-color: #ffebee;">
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Release-3</td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-7</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Setup of Azure Kubernetes Service (AKS) and managed Istio. Managed Prometheus and Grafana were integrated for monitoring. Azure Key Vault was implemented and deployment of all created manifests in AKS.</td>
+    </tr>
+    <tr style="background-color: #ffebee;">
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px; font-weight: bold;">Sprint-8</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Setup of a chaos engineering environment to test the resilience of the system, with experiments conducted to identify and address system weaknesses.</td>
+    </tr>
   </tbody>
 </table>
 <!-- ### What’s Next?
@@ -675,73 +675,73 @@ With the development phase complete, the next step involved **containerizing the
 <p><img alt="User Managements UIs" src="../../images/portfolio/fssp/usr_mngmnt_ui.png"></p>
 <h4 id="user-management-backend">User Management Backend</h4>
 <p>The following table documents the endpoints of the back-end API.</p>
-<table>
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
-      <tr>
-          <th>Endpoint</th>
-          <th>Method</th>
-          <th>Description</th>
-      </tr>
+    <tr style="background-color: #2c3e50; color: #ecf0f1;">
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Endpoint</th>
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Method</th>
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Description</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>/api/register</td>
-          <td>POST</td>
-          <td>Sends client specific data for the creation of a new user. Invokes other back-end functions such as hashing the password, sending a verification Email.</td>
-      </tr>
-      <tr>
-          <td>/api/login</td>
-          <td>POST</td>
-          <td>Sends client specific data for the login of an existing user. Invokes other back-end functions such as hashing the password, sending a verification Email.</td>
-      </tr>
-      <tr>
-          <td>/api/verifyEmail/<uidb64>/<token></td>
-          <td>GET</td>
-          <td>Accessing this endpoint, given that the uidb64 and the token are correct, will change the attribute &ldquo;verified&rdquo; of the data model &ldquo;userAccount&rdquo; to True.</td>
-      </tr>
-      <tr>
-          <td>/api/get_notifications</td>
-          <td>GET</td>
-          <td>Fetches the notifications relevant to the currently logged in user.</td>
-      </tr>
-      <tr>
-          <td>/api/mark_notification_as_viewed</td>
-          <td>GET</td>
-          <td>Marks the notification as viewed removing it from the list of notifications.</td>
-      </tr>
-      <tr>
-          <td>/api/get_user_details</td>
-          <td>GET</td>
-          <td>Fetches the details of the currently logged in user.</td>
-      </tr>
-      <tr>
-          <td>/api/get_profile_pic</td>
-          <td>GET</td>
-          <td>Fetches the profile picture of the currently logged in user.</td>
-      </tr>
-      <tr>
-          <td>/api/change_password</td>
-          <td>POST</td>
-          <td>Changes the password of the currently logged in user.</td>
-      </tr>
-      <tr>
-          <td>/api/change_profile_pic</td>
-          <td>POST</td>
-          <td>Changes the profile picture of the currently logged in user.</td>
-      </tr>
-      <tr>
-          <td>/api/edit_session_timer</td>
-          <td>POST</td>
-          <td>Changes the session timer of the currently logged in user.</td>
-      </tr>
-      <tr>
-          <td>/api/logout</td>
-          <td>POST</td>
-          <td>Logs out the currently logged in user.</td>
-      </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/register</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Sends client specific data for the creation of a new user. Invokes other back-end functions such as hashing the password, sending a verification Email.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/login</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Sends client specific data for the login of an existing user. Invokes other back-end functions such as hashing the password, sending a verification Email.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/verifyEmail/&lt;uidb64&gt;/&lt;token&gt;</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Accessing this endpoint, given that the uidb64 and the token are correct, will change the attribute "verified" of the data model "userAccount" to True.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/get_notifications</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches the notifications relevant to the currently logged in user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/mark_notification_as_viewed</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Marks the notification as viewed removing it from the list of notifications.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/get_user_details</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches the details of the currently logged in user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/get_profile_pic</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches the profile picture of the currently logged in user.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/change_password</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Changes the password of the currently logged in user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/change_profile_pic</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Changes the profile picture of the currently logged in user.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/edit_session_timer</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Changes the session timer of the currently logged in user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/logout</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Logs out the currently logged in user.</td>
+    </tr>
   </tbody>
 </table>
-<p><strong>PS:</strong> Browsers don&rsquo;t seem to know that the frontend and backend are on the same domain, so you will need to add the domain of the frontend to the CORS_Allowed_Origins in the Django RESTful API settings.</p>
+<p><strong>PS:</strong> Browsers don&rsquo;t seem to know that the frontend and backend are on the same domain (which is understandable since they are different applications), so you will need to add the domain of the frontend to the CORS_Allowed_Origins in the Django RESTful API settings.</p>
 <h3 id="whats-next">What’s Next?</h3>
 <p>With the development phase of these two features compete, the next step involved <strong>containerization</strong> and deploying it to a <strong>test Kubernetes cluster</strong>. Stay tuned for the next post, where I’ll discuss this phase in detail.</p>
 </div>

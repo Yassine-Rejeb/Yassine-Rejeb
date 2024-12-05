@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reverse Proxy on M0D4S&#39;s blog</title>
-    <link>https://yassine-rejeb.github.io/tags/reverse-proxy/</link>
+    <link>http://localhost:1313/tags/reverse-proxy/</link>
     <description>Recent content in Reverse Proxy on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/tags/reverse-proxy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/reverse-proxy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Securing a Highly Available Web Application with modsecurity WAF</title>
-      <link>https://yassine-rejeb.github.io/english/post/waf_4_ha/</link>
+      <link>http://localhost:1313/english/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/english/post/waf_4_ha/</guid>
+      <guid>http://localhost:1313/english/post/waf_4_ha/</guid>
       
         <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Securing a Highly Available Web Application with modsecurity WAF</title>
-      <link>https://yassine-rejeb.github.io/post/waf_4_ha/</link>
+      <link>http://localhost:1313/post/waf_4_ha/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/post/waf_4_ha/</guid>
+      <guid>http://localhost:1313/post/waf_4_ha/</guid>
       
         <description>Securing a Highly Available Web Application with modsecurity WAF</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
-      <link>https://yassine-rejeb.github.io/english/post/traefik_lb/</link>
+      <link>http://localhost:1313/english/post/traefik_lb/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/english/post/traefik_lb/</guid>
+      <guid>http://localhost:1313/english/post/traefik_lb/</guid>
       
         <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Load Balancing with Traefik and Docker Swarm</title>
-      <link>https://yassine-rejeb.github.io/post/traefik_lb/</link>
+      <link>http://localhost:1313/post/traefik_lb/</link>
       <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://yassine-rejeb.github.io/post/traefik_lb/</guid>
+      <guid>http://localhost:1313/post/traefik_lb/</guid>
       
         <description>Cloud Native Load Balancing with Traefik and Docker Swarm</description>
       

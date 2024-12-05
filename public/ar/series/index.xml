@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Website of Mohamed Yassine Rejeb</title>
-    <link>https://yassine-rejeb.github.io/ar/series/</link>
+    <link>http://localhost:1313/ar/series/</link>
     <description>Recent content in Series on Website of Mohamed Yassine Rejeb</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ar</language><atom:link href="https://yassine-rejeb.github.io/ar/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>ar</language><atom:link href="http://localhost:1313/ar/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
