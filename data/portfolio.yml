@@ -1,6 +1,6 @@
 portfolioitems:
   # portfolio category
-  - title: Coding Projects
+  - title: Projects
     portfolioitem:
       - name: Python Basic Messaging App
         image: '/images/portfolio/messaging.png'
@@ -20,8 +20,8 @@ portfolioitems:
           - M0D4S
       - name: Load Balancing in Docker Swarm
         image: '/images/portfolio/traefik.png'
-        link: ''
-        linktext: 'Not Yet Uploaded'
+        link: 'https://yassine-rejeb.github.io/Yassine-Rejeb/post/traefik_lb/'
+        linktext: 'Detailed in this post'
         description: 'In this project, I made a load balancing system with Traefik and docker swarm to provide some cloud native capabilities like scalability and high availability. I used Odoo as an example of a web application.'
         tags:
           - Docker

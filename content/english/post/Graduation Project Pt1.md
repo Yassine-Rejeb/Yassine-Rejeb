@@ -22,7 +22,7 @@ tags = [
     "SystemResilience"
 ]
 +++
-## Project Introduction & Development Phase
+## Project Introduction
 
 ### Introduction
 Chaos Engineering is rapidly becoming a cornerstone in enhancing software reliability. In this blog post, I’ll introduce the **engineering deg graduation internship project** I worked on, which revolved around developing a **file and secret sharing web application** for the purpose of exloring Chaos Engineering principles to improve system resilience. The journey included **web development**, **containerization**, **Deployment on K8S with monitoring (Test/Dev cluster & AKS)** and finally experimenting with **Chaos Enginering**.  
@@ -89,16 +89,49 @@ The whole project was carried out in **agile sprints** using the Scrum methodolo
 
 | **Release**   | **Sprint**    | **Details**                                                                                                            |
 |---------------|---------------|------------------------------------------------------------------------------------------------------------------------|
-| **Release 1** | **Sprint 1**  | Development of the User Management feature.                                                                            |
-|               | **Sprint 2**  | Development of the Secret Management feature.                                                                          |
-|               | **Sprint 3**  | Containerization of the application so far.                                                                            |
-| **Release 2** | **Sprint 1**  | Setup of a test Kubernetes cluster and deployment of containerized services.                                           |
-|               | **Sprint 2**  | Development of the File Management feature, requiring a running Kubernetes cluster. Feature containerized and deployed on the test cluster. |
-|               | **Sprint 3**  | Setup of monitoring tools (Prometheus, Grafana) using Istio for service mesh capabilities.                             |
-| **Release 3** | **Sprint 1**  | Setup of Azure Kubernetes Service (AKS) and managed Istio. Managed Prometheus and Grafana were integrated for monitoring. Azure Key Vault was implemented and deployment of all created manifests in AKS. |
-|               | **Sprint 2**  | Setup of a chaos engineering environment to test the resilience of the system, with experiments conducted to identify and address system weaknesses. |
+| **Release-1** | **Sprint-1**  | Development of the User Management feature.                                                                            |
+|               | **Sprint-2**  | Development of the Secret Management feature.                                                                          |
+|               | **Sprint-3**  | Containerization of the application so far.                                                                            |
+| **Release-2** | **Sprint-4**  | Setup of a test Kubernetes cluster and deployment of containerized services.                                           |
+|               | **Sprint-5**  | Development of the File Management feature, requiring a running Kubernetes cluster. Feature containerized and deployed on the test cluster. |
+|               | **Sprint-6**  | Setup of monitoring tools (Prometheus, Grafana) using Istio for service mesh capabilities.                             |
+| **Release-3** | **Sprint-7**  | Setup of Azure Kubernetes Service (AKS) and managed Istio. Managed Prometheus and Grafana were integrated for monitoring. Azure Key Vault was implemented and deployment of all created manifests in AKS. |
+|               | **Sprint-8**  | Setup of a chaos engineering environment to test the resilience of the system, with experiments conducted to identify and address system weaknesses. |
 
+
+<!-- ### What’s Next?
+With the development phase complete, the next step involved **containerizing the application** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail! -->
+
+---
+
+## Development of the Features User Management & Secret Management
+### User Management
+The User Management feature encompasses the creation, verification ad update of the user accounts. The feature is implemented using a **Django RESTful Framework** and **VueJs** (Vuetify 3) for the frontend.
+
+#### User Management Frontend
+
+<!-- usr_mngmnt_ui -->
+![User Managements UIs](/images/portfolio/fssp/usr_mngmnt_ui.png)
+
+#### User Management Backend
+
+The following table documents the endpoints of the back-end API.
+
+| Endpoint | Method | Description |
+| --- | --- | --- |
+| /api/register | POST | Sends client specific data for the creation of a new user. Invokes other back-end functions such as hashing the password, sending a verification Email. |
+| /api/login | POST | Sends client specific data for the login of an existing user. Invokes other back-end functions such as hashing the password, sending a verification Email. |
+| /api/verifyEmail/<uidb64>/<token> | GET | Accessing this endpoint, given that the uidb64 and the token are correct, will change the attribute "verified" of the data model "userAccount" to True. |
+| /api/get_notifications | GET | Fetches the notifications relevant to the currently logged in user. |
+| /api/mark_notification_as_viewed | GET | Marks the notification as viewed removing it from the list of notifications. |
+| /api/get_user_details | GET | Fetches the details of the currently logged in user. |
+| /api/get_profile_pic | GET | Fetches the profile picture of the currently logged in user. |
+| /api/change_password | POST | Changes the password of the currently logged in user. |
+| /api/change_profile_pic | POST | Changes the profile picture of the currently logged in user. |
+| /api/edit_session_timer | POST | Changes the session timer of the currently logged in user. |
+| /api/logout | POST | Logs out the currently logged in user. |
+
+**PS:** Browsers don't seem to know that the frontend and backend are on the same domain, so you will need to add the domain of the frontend to the CORS_Allowed_Origins in the Django RESTful API settings.
 
 ### What’s Next?
-With the development phase complete, the next step involved **containerizing the application** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail!
-
+With the development phase of these two features compete, the next step involved **containerization** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail.

@@ -70,7 +70,7 @@ you can always contact me at: <br>
 <div align="center">
 <a href="https://www.linkedin.com/in/mohamed-yassine-rejeb-4100991a1/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-black.svg?style=for-the-badge&logo=linkedin&logoColor=blue"/></a>
 <a href="mailto:m0d4s@duck.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-black?style=for-the-badge&logo=gmail&logoColor=red" /></a>
-<a href="https://www.facebook.com/yassine.rejeb.359/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-black.svg?style=for-the-badge&logo=Facebook&logoColor=blue"/></a>
+<!-- <a href="https://www.facebook.com/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-black.svg?style=for-the-badge&logo=Facebook&logoColor=blue"/></a> -->
 </div>
 
 
