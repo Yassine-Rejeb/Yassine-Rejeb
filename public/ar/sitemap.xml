@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ar/categories/</loc>
+    <loc>https://yassine-rejeb.github.io/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://yassine-rejeb.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://yassine-rejeb.github.io/ar/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/series/</loc>
+    <loc>https://yassine-rejeb.github.io/ar/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://yassine-rejeb.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/series/"
+                href="https://yassine-rejeb.github.io/ar/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/</loc>
+    <loc>https://yassine-rejeb.github.io/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://yassine-rejeb.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://yassine-rejeb.github.io/ar/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/</loc>
+    <loc>https://yassine-rejeb.github.io/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://yassine-rejeb.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://yassine-rejeb.github.io/ar/"
                 />
   </url>
 </urlset>

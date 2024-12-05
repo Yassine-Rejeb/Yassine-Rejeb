@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M0D4S&#39;s blog</title>
-    <link>http://localhost:1313/english/</link>
+    <link>https://yassine-rejeb.github.io/english/</link>
     <description>Recent content on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/english/archives/</link>
+      <link>https://yassine-rejeb.github.io/english/archives/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/english/archives/</guid>
+      <guid>https://yassine-rejeb.github.io/english/archives/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/english/about/</link>
+      <link>https://yassine-rejeb.github.io/english/about/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/english/about/</guid>
+      <guid>https://yassine-rejeb.github.io/english/about/</guid>
       
         <description>Hugo, the world&#39;s fastest framework for building websites</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Awards</title>
-      <link>http://localhost:1313/english/awards/</link>
+      <link>https://yassine-rejeb.github.io/english/awards/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/english/awards/</guid>
+      <guid>https://yassine-rejeb.github.io/english/awards/</guid>
       
         <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Certifications</title>
-      <link>http://localhost:1313/english/certifications/</link>
+      <link>https://yassine-rejeb.github.io/english/certifications/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/english/certifications/</guid>
+      <guid>https://yassine-rejeb.github.io/english/certifications/</guid>
       
         <description>Yass Certifications</description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/english/contact/</link>
+      <link>https://yassine-rejeb.github.io/english/contact/</link>
       <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/english/contact/</guid>
+      <guid>https://yassine-rejeb.github.io/english/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/english/imprint/</link>
+      <link>https://yassine-rejeb.github.io/english/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/english/imprint/</guid>
+      <guid>https://yassine-rejeb.github.io/english/imprint/</guid>
       
         <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
 &lt;p&gt;Information in accordance with the applicable law.&lt;/p&gt;
