@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+    
+      
+        Chaos Engineering Exploration: Containerization and Test K8S Cluster Deployment. |
+      Mohamed Yassine Rejeb
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.139.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Mohamed Yassine Rejeb" />
+  <meta
+    name="description"
+    content="Containerizing the developed features and deploying it to a test K8S cluster"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="../../../scss/main.min.30cd6bc501d1a71b7d1c1fd46089872ea3564aca8fd2c529cc1f91516d53627f.css"
+      integrity="sha256-MM1rxQHRpxt9HB/UYImHLqNWSsqP0sUpzB&#43;RUW1TYn8="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="../../../css/markupHighlight.min.13fea980cb6366009bf6fc9d9ff7a23305d1e20d8ea862b7ef090f69f74bf8e2.css"
+    integrity="sha256-E/6pgMtjZgCb9vydn/eiMwXR4g2OqGK37wkPafdL&#43;OI="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="../../../fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="../../../fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="../../../fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="../../../fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="../../../favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="http://localhost:1313/english/post/graduation-project-pt2/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="../../../js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="../../../js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
+  <meta name="twitter:title" content="Chaos Engineering Exploration: Containerization and Test K8S Cluster Deployment.">
+  <meta name="twitter:description" content="Containerizing the developed features and deploying it to a test K8S cluster">
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/english/post/graduation-project-pt2/">
+  <meta property="og:site_name" content="M0D4S&#39;s blog">
+  <meta property="og:title" content="Chaos Engineering Exploration: Containerization and Test K8S Cluster Deployment.">
+  <meta property="og:description" content="Containerizing the developed features and deploying it to a test K8S cluster">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="english">
+    <meta property="article:published_time" content="2024-05-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-31T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "english",
+        "name": "Chaos Engineering Exploration: Containerization and Test K8S Cluster Deployment.",
+        "headline": "Chaos Engineering Exploration: Containerization and Test K8S Cluster Deployment.",
+        "alternativeHeadline": "",
+        "description": "
+      Containerizing the developed features and deploying it to a test K8S cluster
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/english\/post\/graduation-project-pt2\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "M0D4S"
+        },
+        "copyrightYear" : "2024",
+        "dateCreated": "2024-05-31T00:00:00.00Z",
+        "datePublished": "2024-05-31T00:00:00.00Z",
+        "dateModified": "2024-05-31T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "M0D4S",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "http://localhost:1313/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "http:\/\/localhost:1313\/english\/post\/graduation-project-pt2\/",
+        "wordCount" : "536",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="../../../images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="../../../">I&#39;m Mohamed Yassine Rejeb</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>I am Mohamed Yassine Rejeb, an IT engineer specialized in Networks and Systems Cybersecurity. I obtained my engineering degree from TEK-UP University in Tunisia.<br /> You can find in this blog, notes about certs I go for, projects I do, CTF tasks I solve or create.</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/mohamed-yassine-rejeb-4100991a1/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/Yassine-Rejeb/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:m0d4s@duck.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="../../../pdfs/myCV.pdf"
+            target="_blank"
+            rel="noopener me"
+            aria-label="CV"
+            title="CV"
+          >
+            <i class="fas fa-file-alt fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Mohamed Yassine Rejeb
+        2024
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="../../../imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>  
+      </li>
+    
+  </ul>
+</footer></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="../../../"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="../../../post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="../../../portfolio/"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="../../../certifications/"
+              
+              title=""
+              >certifications</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="../../../about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Chaos Engineering Exploration: Containerization and Test K8S Cluster Deployment.</h1>
+      <h2 id="i-containerization-a-step-toward-portability">I. Containerization: A Step Toward Portability</h2>
+<p>Containerization was a crucial step in this project, ensuring the application could run consistently across different environments. By packaging the application and its dependencies into lightweight containers, we eliminated potential issues caused by environment differences during deployment.</p>
+<h3 id="1-why-containerization"><strong>1. Why Containerization?</strong></h3>
+<ul>
+<li><strong>Portability</strong>: The application can run identically in development, testing, and production environments.</li>
+<li><strong>Isolation</strong>: Each container is isolated, ensuring secure and independent execution.</li>
+<li><strong>Scalability</strong>: Containers can be easily scaled horizontally to handle increased workloads.</li>
+<li><strong>Efficiency</strong>: Containers are lightweight and utilize resources more efficiently than traditional virtual machines.</li>
+</ul>
+<hr>
+<h3 id="2-how-it-was-done"><strong>2. How It Was Done</strong></h3>
+<p>A. <strong>Dockerization of Backend</strong>:</p>
+<ul>
+<li>Created a Dockerfile for the Django application.</li>
+<li>Defined environment variables for database connections and Azure Key Vault secrets.</li>
+<li>Published the image to Docker Hub for easy access: <a href="https://hub.docker.com/r/elyass359/fssp-django">Django API Image</a></li>
+</ul>
+<p>B. <strong>Dockerization of Frontend</strong>:</p>
+<ul>
+<li>Built a Vue.js production-ready image using Node.js.</li>
+<li>Customized the image for Nginx to serve the static files.</li>
+<li>Published the image to Docker Hub for easy access: <a href="https://hub.docker.com/r/elyass359/fssp-vuejs">VueJS Image</a></li>
+</ul>
+<p>C. <strong>Database Setup</strong>:</p>
+<ul>
+<li>Included PostgreSQL in the containerized stack.</li>
+<li>Configured persistent storage and secure credentials.</li>
+</ul>
+<p>D. <strong>Docker Compose</strong>:</p>
+<ul>
+<li>Integrated all services (frontend, backend, PostgreSQL) using a <code>docker-compose.yml</code> file.</li>
+<li>Simplified running the entire stack locally for testing.</li>
+</ul>
+<hr>
+<h3 id="3-challenges-and-solutions"><strong>3. Challenges and Solutions</strong></h3>
+<ul>
+<li><strong>Challenge</strong>: Managing configurations for multiple environments (local, test, production).
+<ul>
+<li><strong>Solution</strong>: Used <code>.env</code> files and Docker Compose to handle environment-specific variables.</li>
+</ul>
+</li>
+<li><strong>Challenge</strong>: Reducing the size of Docker images for faster builds and deployments.
+<ul>
+<li><strong>Solution</strong>: Leveraged multi-stage builds in the Dockerfiles as well as the use of minimal base images.</li>
+</ul>
+</li>
+<li><strong>Challenge</strong>: Encountering difficulties in finding Virtual Machines with x64 processors for AKS nodes.
+<ul>
+<li><strong>Solution</strong>: Changed the base images in Dockerfiles to arm64 instead of x64.</li>
+</ul>
+</li>
+</ul>
+<p>Please consult <a href="https://github.com/Yassine-Rejeb/fssp">the github repository of the project</a> to have a look at the actual definitions of the Dockerfiles.</p>
+<hr>
+<h2 id="ii-deployment-on-a-devtest-kubernetes-cluster">II. Deployment on a Dev/Test Kubernetes Cluster</h2>
+<h3 id="1-why-deploying-on-a-devtest-cluster"><strong>1. Why Deploying on a Dev/Test Cluster?</strong></h3>
+<ul>
+<li><strong>Development</strong>: The application&rsquo;s final feature, requiring a running Kubernetes cluster, can be developed and tested locally.</li>
+<li><strong>Testing</strong>: The application can be tested in a controlled environment before deploying it to production.</li>
+<li><strong>Validation</strong>: The application can be validated for functionality and security before going live.</li>
+<li><strong>Scalability</strong>: The application can be tested for scalability and performance under different loads.</li>
+</ul>
+<hr>
+<h3 id="2-how-it-was-done-1"><strong>2. How It Was Done</strong></h3>
+<ol>
+<li>
+<p><strong>Kubernetes Setup</strong>:</p>
+<ul>
+<li>The Dev/Test cluster was created on local ubuntu machines.</li>
+<li>The cluster was configured with a single control plane node and two worker nodes.</li>
+<li>The Kubernetes cluster was deployed the kubeadm way.</li>
+<li>More details on the setup can be found <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/">here</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Manifests</strong>:</p>
+<ul>
+<li>The Kubernetes manifests are those in the folder <code>k8s_manifests</code> of the repository.</li>
+<li>The manifests include YAML files:
+<ul>
+<li><code>django-service-deployment.yaml</code>: manifest containing the definitions for the Deployment, Service (primarily NodePort), Secrets and HPA.</li>
+<li><code>vuejs-service-deployment.yaml</code>: manifest containing the definitions for the Deployment, Service (primarily NodePort) and HPA.</li>
+<li><code>postgresql-service-deployment.yaml</code>: manifest containing the definitions for the PV, PVC, Secrets, Deployment, Service (primarily NodePort) and HPA.</li>
+<li><code>pgadmin-service.yaml.old</code>: dev/test ONLY manifest containing the definitions for the Deployment, Service and HPA.</li>
+<li><code>pgadmin-service.yaml</code>: manifest containing the definitions for the Deployment, Service and HPA.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Up and Running</strong>:</p>
+<ul>
+<li>The manifests were deployed on the test cluster using <code>kubectl apply -f &lt;directory&gt;</code>.</li>
+<li>The deployments were validated by accessing the services using the NodePorts.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="iii-development-of-the-feature-file-management">III. Development of the Feature File Management</h2>
+<!-- ### 1. File Management Frontend
+The File Management feature encompasses the creation, deletion, retrieval, share and revocation of the file.
+
+#### File Management Frontend
+
+<!-- ![File Managements UIs](/images/portfolio/fssp/fssp_ui.png)
+
+#### File Management Backend -->
+<!-- The following table documents the endpoints of the back-end API that are relevant to the File Management feature. --> -->
+<h2 id="o-whats-next">o. What’s Next?</h2>
+<!-- With the development phase of these two features compete, the next step involved **containerization** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail.
+
+Next Post on the series: [Chaos Engineering Exploration: Final Feature Development and Setting-up Monitoring and Chaos Mesh.](post/graduation-project-pt3/) -->
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Mohamed Yassine Rejeb
+        2024
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="../../../imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>  
+      </li>
+    
+  </ul>
+</footer></body>
+</html>

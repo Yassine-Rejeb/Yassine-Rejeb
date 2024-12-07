@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/english/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -16,6 +16,34 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/english/post/graduation-project-pt2/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/graduation-project-pt2/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/index/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/english/post/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/agiledevelopment/</loc>
@@ -45,16 +73,7 @@
     <loc>http://localhost:1313/tags/fullstackdevelopment/</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/index/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/internshipproject/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/english/post/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/scrummethodology/</loc>
@@ -74,19 +93,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/systemresilience/</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/vuejs/</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>

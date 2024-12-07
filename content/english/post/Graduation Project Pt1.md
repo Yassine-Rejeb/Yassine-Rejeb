@@ -22,14 +22,14 @@ tags = [
     "SystemResilience"
 ]
 +++
-## Project Presentation
-### Introduction
+## I. Project Presentation
+### 1. Introduction
 Chaos Engineering is rapidly becoming a cornerstone in enhancing software reliability. In this blog post, I’ll introduce the **engineering deg graduation internship project** I worked on, which revolved around developing a **file and secret sharing web application** for the purpose of exloring Chaos Engineering principles to improve system resilience. The journey included **web development**, **containerization**, **Deployment on K8S with monitoring (Test/Dev cluster & AKS)** and finally experimenting with **Chaos Enginering**.  
 The project is published on my [GitHub](https://github.com/Yassine-Rejeb/fssp).
 
 ---
 
-### Why This Project?
+### 2. Why This Project?
 Modern software systems are increasingly more distributed and more cloud based and with that comes inherent complexity (This was researched as early as 1986 by Frederick P. Brook Jr. in his research paper **No silver bullet - essence and accidents of software engineering**). 
 Traditional methods like **manual testing** or **reactive troubleshooting** often fall short in identifying mishaps of software engineering. Chaos engineering emerged to solve that by relying on chaos theory. 
 This project aimed to: 
@@ -38,7 +38,7 @@ This project aimed to:
 
 ---
 
-### Project Scope and Objectives
+### 3. Project Scope and Objectives
 The project was structured to achieve the following objectives:
 1. **Develop a secure web application** with robust user management, file, and secret sharing features.
 2. **Containerize the application** to ensure portability and consistency.
@@ -47,7 +47,7 @@ The project was structured to achieve the following objectives:
 
 ---
 
-### Project Planning
+### 4. Project Planning
 
 #### Global Use Case Diagram
 As a starting point, we need to have an idea about the use cases of our application, so here is the general use case diagram:
@@ -138,15 +138,10 @@ The whole project was carried out in **agile sprints** using the Scrum methodolo
   </tbody>
 </table>
 
-
-
-<!-- ### What’s Next?
-With the development phase complete, the next step involved **containerizing the application** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail! -->
-
 ---
 
-## Development of the Features User Management & Secret Management
-### User Management
+## II. Development of the Features User Management & Secret Management
+### 1. User Management
 The User Management feature encompasses the creation, verification ad update of the user accounts. The feature is implemented using a **Django RESTful Framework** and **VueJs** (Vuetify 3) for the frontend.
 
 #### User Management Frontend
@@ -156,7 +151,7 @@ The User Management feature encompasses the creation, verification ad update of 
 
 #### User Management Backend
 
-The following table documents the endpoints of the back-end API.
+The following table documents the endpoints of the back-end API that are relevent to the User Management feature.
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
@@ -225,8 +220,88 @@ The following table documents the endpoints of the back-end API.
   </tbody>
 </table>
 
-
 **PS:** Browsers don't seem to know that the frontend and backend are on the same domain (which is understandable since they are different applications), so you will need to add the domain of the frontend to the CORS_Allowed_Origins in the Django RESTful API settings.
 
-### What’s Next?
+The following table documents the endpoints of the back-end API that are relevent to the Secret Management feature.
+
+---
+
+### 2. Secret Management
+The Secret Management feature encompasses the creation, deletion, retrieval, share and revocation of the secret.
+
+#### Secret Management Frontend
+
+![Secret Managements UIs](/images/portfolio/fssp/secret_mngmnt_ui.png)
+
+#### Secret Management Backend
+
+The following table documents the endpoints of the back-end API that are relevent to the Secret Management feature.
+
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #2c3e50; color: #ecf0f1;">
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Endpoint</th>
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Method</th>
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/add_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Sends two parameters (Name & Content) to create a new instance of the class secret.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/list_secrets</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches all the secrets owned by the current user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/share_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Creates a share object for a specific user with optional expiration parameters.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/revoke_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Deletes a share object of a secret for a specific user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/display_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Requests the plain content of a secret, invoking functionalities such as Decryption via RSA Keys and Decryption via AES Keys.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/delete_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Deletes a secret along with all the shares that have been created from it (revoking all access to it).</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/list_shared_secrets</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches all the secrets shared TO the current user.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/display_shared_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Requests the plain content of a secret, invoking functionalities such as Decryption via RSA Key then Decryption via AES Key.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/remove_access_to_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Deletes the share object that provides the current user with access to the secret.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/get_user_eventlogs</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches all the event logs/activities that have been done on secrets relevant to the current user.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## o. What’s Next?
 With the development phase of these two features compete, the next step involved **containerization** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail.
+
+Next Post on the series: [Chaos Engineering Exploration: Containerization and Test K8S Cluster.](post/graduation-project-pt2/) 
