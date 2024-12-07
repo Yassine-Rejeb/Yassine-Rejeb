@@ -6,7 +6,18 @@
     <description>Recent content in Posts on M0D4S&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/english/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yassine-rejeb.github.io/english/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chaos Engineering Exploration: Containerization and Test K8S Cluster Deployment.</title>
+      <link>https://yassine-rejeb.github.io/english/post/graduation-project-pt2/</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yassine-rejeb.github.io/english/post/graduation-project-pt2/</guid>
+      
+        <description>Containerizing the developed features and deploying it to a test K8S cluster</description>
+      
+    </item>
+    
     <item>
       <title>Chaos Engineering Exploration: Developping a resilient web application for file and secret sharing.</title>
       <link>https://yassine-rejeb.github.io/english/post/graduation-project-pt1/</link>

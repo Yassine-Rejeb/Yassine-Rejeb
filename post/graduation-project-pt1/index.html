@@ -203,7 +203,7 @@
 
     ,
         "url" : "https:\/\/yassine-rejeb.github.io\/post\/graduation-project-pt1\/",
-        "wordCount" : "986",
+        "wordCount" : "1243",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -550,15 +550,15 @@
           </li>
           <li class="post__meta-item">
             <em class="fas fa-stopwatch post__meta-icon"></em>
-            <span class="post__meta-text">5-minute read</span>
+            <span class="post__meta-text">6-minute read</span>
           </li>
         </ul>
-      <h2 id="project-presentation">Project Presentation</h2>
-<h3 id="introduction">Introduction</h3>
+      <h2 id="i-project-presentation">I. Project Presentation</h2>
+<h3 id="1-introduction">1. Introduction</h3>
 <p>Chaos Engineering is rapidly becoming a cornerstone in enhancing software reliability. In this blog post, I’ll introduce the <strong>engineering deg graduation internship project</strong> I worked on, which revolved around developing a <strong>file and secret sharing web application</strong> for the purpose of exloring Chaos Engineering principles to improve system resilience. The journey included <strong>web development</strong>, <strong>containerization</strong>, <strong>Deployment on K8S with monitoring (Test/Dev cluster &amp; AKS)</strong> and finally experimenting with <strong>Chaos Enginering</strong>.<br>
 The project is published on my <a href="https://github.com/Yassine-Rejeb/fssp">GitHub</a>.</p>
 <hr>
-<h3 id="why-this-project">Why This Project?</h3>
+<h3 id="2-why-this-project">2. Why This Project?</h3>
 <p>Modern software systems are increasingly more distributed and more cloud based and with that comes inherent complexity (This was researched as early as 1986 by Frederick P. Brook Jr. in his research paper <strong>No silver bullet - essence and accidents of software engineering</strong>).
 Traditional methods like <strong>manual testing</strong> or <strong>reactive troubleshooting</strong> often fall short in identifying mishaps of software engineering. Chaos engineering emerged to solve that by relying on chaos theory.
 This project aimed to:</p>
@@ -567,7 +567,7 @@ This project aimed to:</p>
 <li>Demonstrate the effectiveness of <strong>Chaos Engineering</strong> in identifying and addressing hidden system weaknesses.</li>
 </ul>
 <hr>
-<h3 id="project-scope-and-objectives">Project Scope and Objectives</h3>
+<h3 id="3-project-scope-and-objectives">3. Project Scope and Objectives</h3>
 <p>The project was structured to achieve the following objectives:</p>
 <ol>
 <li><strong>Develop a secure web application</strong> with robust user management, file, and secret sharing features.</li>
@@ -576,7 +576,7 @@ This project aimed to:</p>
 <li>Implement <strong>Chaos Engineering experiments</strong> to test and enhance the application&rsquo;s resilience.</li>
 </ol>
 <hr>
-<h3 id="project-planning">Project Planning</h3>
+<h3 id="4-project-planning">4. Project Planning</h3>
 <h4 id="global-use-case-diagram">Global Use Case Diagram</h4>
 <p>As a starting point, we need to have an idea about the use cases of our application, so here is the general use case diagram:
 <img alt="General Use Case Diagram of the Web App" src="../../images/portfolio/fssp/global_uc.png"></p>
@@ -664,17 +664,15 @@ tings or update personal information after logging in.</li>
     </tr>
   </tbody>
 </table>
-<!-- ### What’s Next?
-With the development phase complete, the next step involved **containerizing the application** and deploying it to a **test Kubernetes cluster**. Stay tuned for the next post, where I’ll discuss this phase in detail! -->
 <hr>
-<h2 id="development-of-the-features-user-management--secret-management">Development of the Features User Management &amp; Secret Management</h2>
-<h3 id="user-management">User Management</h3>
+<h2 id="ii-development-of-the-features-user-management--secret-management">II. Development of the Features User Management &amp; Secret Management</h2>
+<h3 id="1-user-management">1. User Management</h3>
 <p>The User Management feature encompasses the creation, verification ad update of the user accounts. The feature is implemented using a <strong>Django RESTful Framework</strong> and <strong>VueJs</strong> (Vuetify 3) for the frontend.</p>
 <h4 id="user-management-frontend">User Management Frontend</h4>
 <!-- usr_mngmnt_ui -->
 <p><img alt="User Managements UIs" src="../../images/portfolio/fssp/usr_mngmnt_ui.png"></p>
 <h4 id="user-management-backend">User Management Backend</h4>
-<p>The following table documents the endpoints of the back-end API.</p>
+<p>The following table documents the endpoints of the back-end API that are relevent to the User Management feature.</p>
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #2c3e50; color: #ecf0f1;">
@@ -742,8 +740,79 @@ With the development phase complete, the next step involved **containerizing the
   </tbody>
 </table>
 <p><strong>PS:</strong> Browsers don&rsquo;t seem to know that the frontend and backend are on the same domain (which is understandable since they are different applications), so you will need to add the domain of the frontend to the CORS_Allowed_Origins in the Django RESTful API settings.</p>
-<h3 id="whats-next">What’s Next?</h3>
+<p>The following table documents the endpoints of the back-end API that are relevent to the Secret Management feature.</p>
+<hr>
+<h3 id="2-secret-management">2. Secret Management</h3>
+<p>The Secret Management feature encompasses the creation, deletion, retrieval, share and revocation of the secret.</p>
+<h4 id="secret-management-frontend">Secret Management Frontend</h4>
+<p><img alt="Secret Managements UIs" src="../../images/portfolio/fssp/secret_mngmnt_ui.png"></p>
+<h4 id="secret-management-backend">Secret Management Backend</h4>
+<p>The following table documents the endpoints of the back-end API that are relevent to the Secret Management feature.</p>
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #2c3e50; color: #ecf0f1;">
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Endpoint</th>
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Method</th>
+      <th style="border: 1px solid #34495e; padding: 10px; text-align: left;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/add_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Sends two parameters (Name & Content) to create a new instance of the class secret.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/list_secrets</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches all the secrets owned by the current user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/share_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Creates a share object for a specific user with optional expiration parameters.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/revoke_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Deletes a share object of a secret for a specific user.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/display_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Requests the plain content of a secret, invoking functionalities such as Decryption via RSA Keys and Decryption via AES Keys.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/delete_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Deletes a secret along with all the shares that have been created from it (revoking all access to it).</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/list_shared_secrets</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches all the secrets shared TO the current user.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/display_shared_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Requests the plain content of a secret, invoking functionalities such as Decryption via RSA Key then Decryption via AES Key.</td>
+    </tr>
+    <tr style="background-color: #ecf0f1;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/remove_access_to_secret</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">POST</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Deletes the share object that provides the current user with access to the secret.</td>
+    </tr>
+    <tr style="background-color: #f7f9f9;">
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">/api/get_user_eventlogs</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">GET</td>
+      <td style="border: 1px solid #bdc3c7; padding: 10px;">Fetches all the event logs/activities that have been done on secrets relevant to the current user.</td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="o-whats-next">o. What’s Next?</h2>
 <p>With the development phase of these two features compete, the next step involved <strong>containerization</strong> and deploying it to a <strong>test Kubernetes cluster</strong>. Stay tuned for the next post, where I’ll discuss this phase in detail.</p>
+<p>Next Post on the series: <a href="../../post/graduation-project-pt2/">Chaos Engineering Exploration: Containerization and Test K8S Cluster.</a></p>
 </div>
     <div class="post__footer">
       
