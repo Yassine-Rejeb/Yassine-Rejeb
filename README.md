@@ -1,80 +1,31 @@
-<div id="top"></div>
-<p align="center">
-<div align="center" >
+# Mohamed Yassine Rejeb
 
-## Hi there, I'm Yassine Rejeb (AKA M0D4S)
+**Platform & Security Engineer**: OpenShift, GitOps, and SOC detection & response.
 
-</div>
-<div align="center"><img src="https://readme-typing-svg.herokuapp.com?size=24&color=182533&center=true&vCenter=true&lines=Hello+%F0%9F%91%8B;Linux+enthusiast;CyberSecurity+enthusiast;CTF+Player;HTB+Player,Novice+though"></div>
+I build and run containerized platforms on OpenShift, and I build detection pipelines that turn raw alerts into triaged cases.
 
-<p align="center">
-<a href="https://github.com/Yassine-Rejeb?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/github/stars/Yassine-Rejeb?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-  <a href="https://github.com/Yassine-Rejeb?tab=followers">
-    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/Yassine-Rejeb?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-  <a href="https://github.com/Yassine-Rejeb/">
-    <img alt="views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=Yassine-Rejeb&label=Profile%20Views%20&color=ff0000&style=for-the-badge"/></a>
-</p>
+Based in Tunisia (UTC+1), open to remote roles. English, French, Arabic.
 
-  
-## 👨🏻‍💻  About Me
-💡  I am passionate about linux and cybersecurity with a side interest in cloud.<br>
-💻  I’m currently studying Cyber Security.<br>
-👨🏻‍💻  I’m following a pathway in both fields cloud infrastructure and cyber security.<br>
-🙌🏼  2024 Goals: Better myself in containerization and K8S.<br>
+## Featured projects
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/640px-Tux.svg.png" alt="UNIX Like Systems" width="10" height="15"  style="vertical-align:top; margin:4px"> Skills <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25px">
+**[SOC-SOAR Lab](https://github.com/Yassine-Rejeb/soc-soar-lab)**: Suricata → Wazuh → Shuffle → TheHive.
+A reverse shell opened through a DVWA command injection is detected by Suricata, raised by Wazuh, turned into a TheHive alert by Shuffle, and the attacker's IP is dropped by a Wazuh active response.
 
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/redhat/redhat-ar21.svg"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/ansible/ansible-ar21.svg"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></code>
-<code><img height="40" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-   
-</div>
+**[tektoSync](https://github.com/Yassine-Rejeb/tektoSync-The-Cloud-Native-Delivery-Blueprint)**: GitOps delivery on OpenShift.
+Tekton pipelines build images and update Kustomize overlays in a config repo; ArgoCD syncs an 11-component microservices app. Secrets are managed with Sealed Secrets.
 
-<!--
-# ⚙️ GitHub Analytics
+## Certifications
 
-<p align=center>
-    <div align="center">
-     <img  width = "400px" src ="https://github-readme-stats.vercel.app/api?username=Yassine-Rejeb&show_icons=true&theme=algolia"/>
-      <img  width = "400px" src="https://github-readme-streak-stats.herokuapp.com/?user=Yassine-Rejeb&theme=algolia" alt="webDev's Github stats" />
-      <img  height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yassine-Rejeb&layout=compact&theme=algolia"/>
-      <br>
-      <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
-    </div>
-</p>
--->
-# 📫 Connect with me
-If you have questions, or you need any kind of assistance, I'm available for freelancing and I'm looking for new opportunities,
-you can always contact me at: <br>
+- [Red Hat Certified OpenShift Administrator](https://www.credly.com/badges/ed13ad42-db24-4788-9c8e-d449b4f5a092)
+- [Red Hat Certified Engineer (RHCE)](https://www.credly.com/badges/1a0ccede-0d34-4ac9-8965-36cf5d6148ac)
+- [Red Hat Certified System Administrator (RHCSA)](https://www.credly.com/badges/42440720-371e-44a5-8151-187b945dd2ac)
+- [eLearnSecurity Junior Penetration Tester (eJPT)](https://security.ine.com/verify-certification/?c=f26c2dd2-4522-423e-a783-022cc0f4c936)
 
-<!-- Social Links -->
-<div align="center">
-<a href="https://www.linkedin.com/in/mohamed-yassine-rejeb-4100991a1/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-black.svg?style=for-the-badge&logo=linkedin&logoColor=blue"/></a>
-<a href="mailto:m0d4s@duck.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-black?style=for-the-badge&logo=gmail&logoColor=red" /></a>
-<!-- <a href="https://www.facebook.com/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-black.svg?style=for-the-badge&logo=Facebook&logoColor=blue"/></a> -->
-</div>
+## Tools I work with
 
+**Platform:** OpenShift, Kubernetes, Tekton, ArgoCD, Kustomize, Podman, Docker, Ansible, Terraform, RHEL
+**Security:** Wazuh, Suricata, Shuffle, TheHive, ModSecurity, Sealed Secrets
 
-<h6 align="center"> </h6>
+## Contact
 
----
-<p align="center">(<a href="#top">back to top</a>)</p>
+[Portfolio](https://portfolio.ycnbase.com) | [LinkedIn](https://www.linkedin.com/in/mohamed-yassine-rejeb-4100991a1/) | [Email](mailto:m0d4s@duck.com)
