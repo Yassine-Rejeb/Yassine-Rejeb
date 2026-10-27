@@ -24,6 +24,7 @@ Tekton pipelines build images and update Kustomize overlays in a config repo; Ar
 ## Tools I work with
 
 **Platform:** OpenShift, Kubernetes, Tekton, ArgoCD, Kustomize, Podman, Docker, Ansible, Terraform, RHEL
+
 **Security:** Wazuh, Suricata, Shuffle, TheHive, ModSecurity, Sealed Secrets
 
 ## Contact
